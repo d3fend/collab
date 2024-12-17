@@ -1,0 +1,1739 @@
+{
+    "meta": {
+        "title": "",
+        "authors": [
+            ""
+        ],
+        "orgs": [
+            ""
+        ],
+        "description": "",
+        "article": "",
+        "d3fend_version": "",
+        "cad_schema_version": 0,
+        "published_date": "",
+        "references": [
+            ""
+        ],
+        "settings": {}
+    },
+    "nodes": [
+        {
+            "id": "0.03445693789308979",
+            "type": "artifact-node",
+            "position": {
+                "x": -191.06079467909888,
+                "y": -342.82668083432094
+            },
+            "data": {
+                "label": "Data",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":data",
+                "d3f_class_label": ":data"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.19172154106290062",
+            "type": "artifact-node",
+            "position": {
+                "x": -125.3738265439614,
+                "y": 930.992374364204
+            },
+            "data": {
+                "label": "Network Media Streaming Resource",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":NetworkMediaStreamingResource",
+                "d3f_class_label": ":NetworkMediaStreamingResource"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 280,
+                "height": 147
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 280,
+            "height": 147
+        },
+        {
+            "id": "0.4008398682602008",
+            "type": "artifact-node",
+            "position": {
+                "x": 1711.8877146025993,
+                "y": -671.1764529865993
+            },
+            "data": {
+                "label": ":ImageFile",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":ImageFile",
+                "d3f_class_label": ":ImageFile"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.06506470221229688",
+            "type": "artifact-node",
+            "position": {
+                "x": 998.500116277201,
+                "y": 1087.1456227764747
+            },
+            "data": {
+                "label": ":RTSPServer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":RTSPServer",
+                "d3f_class_label": ":RTSPServer"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.13571630167926618",
+            "type": "artifact-node",
+            "position": {
+                "x": 75.64767402745728,
+                "y": -346.9557397545049
+            },
+            "data": {
+                "label": "Structured Digital Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":StructuredDigitalInformation",
+                "d3f_class_label": ":StructuredData"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 155,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "8-copy0.3491647860917064",
+            "type": "artifact-node",
+            "position": {
+                "x": 97.47015413765811,
+                "y": 464.2353268774748
+            },
+            "data": {
+                "label": "Unstructured Digital Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":UnstructuredDigitalInformation",
+                "d3f_class_label": ":UnstructuredData"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 168,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8643394827598005",
+            "type": "artifact-node",
+            "position": {
+                "x": 378.1559477670307,
+                "y": 388.0366734368241
+            },
+            "data": {
+                "label": "String",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":String",
+                "d3f_class_label": ":String"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9886831670577353",
+            "type": "artifact-node",
+            "position": {
+                "x": 394.56814929731024,
+                "y": -186.1648401545997
+            },
+            "data": {
+                "label": ":DigitalMedia",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":DigitalMedia",
+                "d3f_class_label": ":DigitalMedia"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.012259043486607224",
+            "type": "artifact-node",
+            "position": {
+                "x": 874.3111356473021,
+                "y": -557.9149453411574
+            },
+            "data": {
+                "label": "Digital Audio",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":DigitalAudio",
+                "d3f_class_label": ":DigitalAudio"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4208079109911633",
+            "type": "artifact-node",
+            "position": {
+                "x": 873.5426157125261,
+                "y": -416.7103812683808
+            },
+            "data": {
+                "label": "Digital Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": ":DigitalImage",
+                "d3f_class_label": ":DigitalImage"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.20913441410650624",
+            "type": "artifact-node",
+            "position": {
+                "x": 1745.1758242810438,
+                "y": -836.4576732756864
+            },
+            "data": {
+                "label": "File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:File",
+                "d3f_class_label": "File"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2462227927825683",
+            "type": "artifact-node",
+            "position": {
+                "x": 1744.5905042210509,
+                "y": -987.6123384303185
+            },
+            "data": {
+                "label": "Digital Information Bearer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DigitalInformationBearer",
+                "d3f_class_label": "Digital Information Bearer"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 197,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 197,
+            "height": 102
+        },
+        {
+            "id": "0.6396962086555251",
+            "type": "artifact-node",
+            "position": {
+                "x": 1171.938537751961,
+                "y": -367.09652174988963
+            },
+            "data": {
+                "label": "Bitmap Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":BitmapImage",
+                "d3f_class": ":BitmapImage"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7450981058674999",
+            "type": "artifact-node",
+            "position": {
+                "x": 873.6123186650261,
+                "y": -267.31980362960843
+            },
+            "data": {
+                "label": "Digital Multimedia",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":DigitalMultimedia",
+                "d3f_class": ":DigitalMultimedia"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7675708387297528",
+            "type": "artifact-node",
+            "position": {
+                "x": 402.25626085035896,
+                "y": -531.3717253680707
+            },
+            "data": {
+                "label": "Codec Library",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":CodecLibrary",
+                "d3f_class": ":CodecLibrary"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7577191031030914",
+            "type": "artifact-node",
+            "position": {
+                "x": 415.3277318989762,
+                "y": 455.1655237786846
+            },
+            "data": {
+                "label": "Integer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Integer",
+                "d3f_class": ":Integer"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.21531155081321418",
+            "type": "artifact-node",
+            "position": {
+                "x": 450.5382976585805,
+                "y": 520.3325246186407
+            },
+            "data": {
+                "label": "Char",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Char",
+                "d3f_class": ":Char"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6270523473534888",
+            "type": "artifact-node",
+            "position": {
+                "x": -429.0320365611283,
+                "y": -343.3251119870982
+            },
+            "data": {
+                "label": "Digital Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:DigitalInformation",
+                "d3f_class_label": "Digital Information"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7804873363755258",
+            "type": "artifact-node",
+            "position": {
+                "x": 87.9273521149025,
+                "y": -669.6630882755878
+            },
+            "data": {
+                "label": "Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Metadata",
+                "d3f_class_label": "Metadata"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2641070060566606",
+            "type": "artifact-node",
+            "position": {
+                "x": 401.32331030980527,
+                "y": -344.31977959451774
+            },
+            "data": {
+                "label": "EncodedData",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "EncodedData",
+                "d3f_class_label": "EncodedData"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.2845432052617751",
+            "type": "artifact-node",
+            "position": {
+                "x": 798.6033539747856,
+                "y": -127.42482956491472
+            },
+            "data": {
+                "label": "Digital Document",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":DigitalDocument",
+                "d3f_class": ":DigitalDocument"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "1-copy0.8600764972437254",
+            "type": "artifact-node",
+            "position": {
+                "x": 797.8076771372233,
+                "y": 12.22785158519929
+            },
+            "data": {
+                "label": "Digital Text",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":DigitalText",
+                "d3f_class": ":DigitalText"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.5994513097971723",
+            "type": "artifact-node",
+            "position": {
+                "x": 794.086041817017,
+                "y": 147.28486441549512
+            },
+            "data": {
+                "label": "Digital Video",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":DigitalVideo",
+                "d3f_class": ":DigitalVideo"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.359020843492015",
+            "type": "artifact-node",
+            "position": {
+                "x": 1092.3183440747034,
+                "y": -248.92014875922064
+            },
+            "data": {
+                "label": "Vector Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":VectorImage",
+                "d3f_class": ":VectorImage"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.03433189277159632",
+            "type": "artifact-node",
+            "position": {
+                "x": 1088.9291939403406,
+                "y": -125.78102721070394
+            },
+            "data": {
+                "label": "Digital Audio Visual Media",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":DigitalAudioVisualMedia",
+                "d3f_class": ":DigitalAudioVisualMedia"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.061213059603137054",
+            "type": "artifact-node",
+            "position": {
+                "x": 169.59737307216142,
+                "y": 828.6162564436211
+            },
+            "data": {
+                "label": "Network Audio Streaming Resource",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":NetworkAudioStreamingResource",
+                "d3f_class": ":NetworkAudioStreamingResource"
+            },
+            "measured": {
+                "width": 250,
+                "height": 97
+            },
+            "selected": false,
+            "width": 250,
+            "height": 97,
+            "dragging": false
+        },
+        {
+            "id": "0.09687830493083016",
+            "type": "artifact-node",
+            "position": {
+                "x": 163.99417565863325,
+                "y": 1086.2104464635695
+            },
+            "data": {
+                "label": "Network Multimedia Streaming Resource",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":NetworkMultimediaStreamingResource",
+                "d3f_class": ":NetworkMultimediaStreamingResource"
+            },
+            "measured": {
+                "width": 252,
+                "height": 92
+            },
+            "selected": false,
+            "width": 252,
+            "height": 92,
+            "dragging": false
+        },
+        {
+            "id": "6-copy0.7237157440463904",
+            "type": "artifact-node",
+            "position": {
+                "x": 165.2918793866935,
+                "y": 956.4784801272328
+            },
+            "data": {
+                "label": "Network Video Streaming Resource",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":NetworkVideoStreamingResource",
+                "d3f_class": ":NetworkVideoStreamingResource"
+            },
+            "measured": {
+                "width": 252,
+                "height": 92
+            },
+            "selected": false,
+            "width": 252,
+            "height": 92,
+            "dragging": false
+        },
+        {
+            "id": "4-copy0.7921610691012586",
+            "type": "artifact-node",
+            "position": {
+                "x": 527.5755694319685,
+                "y": 1091.4780743151755
+            },
+            "data": {
+                "label": "Network Audio Visual Streaming Resource",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":NetworkAudioVisualStreamingResource",
+                "d3f_class": ":NetworkAudioVisualStreamingResource"
+            },
+            "measured": {
+                "width": 277,
+                "height": 90
+            },
+            "selected": false,
+            "width": 277,
+            "height": 90,
+            "dragging": false
+        },
+        {
+            "id": "0.8348183345694304",
+            "type": "artifact-node",
+            "position": {
+                "x": 1931.2637428334142,
+                "y": -688.1766659763218
+            },
+            "data": {
+                "label": "Packet Capture File",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "definition",
+                        "A file which contains raw representations\nof collected packets."
+                    ]
+                ],
+                "d3f_class_label": ":PacketCaptureFile",
+                "d3f_class": ":PacketCaptureFile"
+            },
+            "measured": {
+                "width": 413,
+                "height": 141
+            },
+            "selected": false,
+            "dragging": false,
+            "width": 332,
+            "height": 141
+        },
+        {
+            "id": "0.03527117822194348",
+            "type": "artifact-node",
+            "position": {
+                "x": 2058.3343567582765,
+                "y": -451.95213801937393
+            },
+            "data": {
+                "label": "Packet Log",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Packet Log",
+                "d3f_class": "d3f:PacketLog"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": true,
+            "dragging": false
+        },
+        {
+            "id": "0.7440821392472912",
+            "type": "artifact-node",
+            "position": {
+                "x": 2494.9047066696107,
+                "y": -664.1492990928434
+            },
+            "data": {
+                "label": "Network Packet",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": "Network Packet",
+                "d3f_class": "d3f:NetworkPackets"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.8871455585467758",
+            "type": "artifact-node",
+            "position": {
+                "x": 407.02641852360205,
+                "y": 590.5495139445793
+            },
+            "data": {
+                "label": "Floating Point",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":FloatingPoint",
+                "d3f_class": ":FloatingPoint"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.10243705258230595",
+            "type": "artifact-node",
+            "position": {
+                "x": 315.4439043681748,
+                "y": -54.25864669588816
+            },
+            "data": {
+                "label": "Array",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Array",
+                "d3f_class": ":Array"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.27988430788658847",
+            "type": "artifact-node",
+            "position": {
+                "x": 343.6227125617807,
+                "y": 9.134368772191806
+            },
+            "data": {
+                "label": "Dictionary",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Dictionary",
+                "d3f_class": ":Dictionary"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.33261502195321113",
+            "type": "artifact-node",
+            "position": {
+                "x": 375.6830992971944,
+                "y": 76.69018367895632
+            },
+            "data": {
+                "label": "Enumeration",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Enumeration",
+                "d3f_class": ":Enumeration"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.44566886154540675",
+            "type": "artifact-node",
+            "position": {
+                "x": 406.59847222062905,
+                "y": 141.95597096176272
+            },
+            "data": {
+                "label": "Set",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Set",
+                "d3f_class": ":Set"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.284631304407551",
+            "type": "artifact-node",
+            "position": {
+                "x": 437.1954950725566,
+                "y": 204.93173062061112
+            },
+            "data": {
+                "label": "Tuple",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Tuple",
+                "d3f_class": ":Tuple"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.561585153014363",
+            "type": "artifact-node",
+            "position": {
+                "x": 474.1542871273935,
+                "y": 270.19751790341746
+            },
+            "data": {
+                "label": "Union",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":Union",
+                "d3f_class": ":Union"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.880694407236208",
+            "type": "artifact-node",
+            "position": {
+                "x": 1548.4955898712712,
+                "y": -396.2868860547116
+            },
+            "data": {
+                "label": "Bitmap Image File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":BitmapImageFile",
+                "d3f_class": ":BitmapImageFile"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6261091004010086",
+            "type": "artifact-node",
+            "position": {
+                "x": 1629.974368881664,
+                "y": -282.7044011559709
+            },
+            "data": {
+                "label": "Vector Image File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":VectorImageFile",
+                "d3f_class": ":VectorImageFile"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.1915102527626651",
+            "type": "artifact-node",
+            "position": {
+                "x": 1729.1607142793341,
+                "y": -172.29384517506196
+            },
+            "data": {
+                "label": "Multimedia File",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class_label": ":MultimediaFile",
+                "d3f_class": ":MultimediaFile"
+            },
+            "measured": {
+                "width": 150,
+                "height": 102
+            },
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.13571630167926618",
+            "sourceHandle": "source",
+            "target": "0.03445693789308979",
+            "targetHandle": "target",
+            "id": "xy-edge__0.13571630167926618source-0.03445693789308979target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "8-copy0.3491647860917064",
+            "sourceHandle": "source",
+            "target": "0.03445693789308979",
+            "targetHandle": "target",
+            "id": "xy-edge__8-copy0.3491647860917064source-0.03445693789308979target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8643394827598005",
+            "sourceHandle": "source",
+            "target": "8-copy0.3491647860917064",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8643394827598005source-8-copy0.3491647860917064target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9886831670577353",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.9886831670577353source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.012259043486607224",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__0.012259043486607224source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4208079109911633",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__0.4208079109911633source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "d3f:contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4008398682602008",
+            "sourceHandle": "source",
+            "target": "0.4208079109911633",
+            "targetHandle": "target",
+            "id": "xy-edge__0.4008398682602008source-0.4208079109911633target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.4008398682602008",
+            "sourceHandle": "source",
+            "target": "0.20913441410650624",
+            "targetHandle": "target",
+            "id": "xy-edge__0.4008398682602008source-0.20913441410650624target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.20913441410650624",
+            "sourceHandle": "source",
+            "target": "0.2462227927825683",
+            "targetHandle": "target",
+            "id": "xy-edge__0.20913441410650624source-0.2462227927825683target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6396962086555251",
+            "sourceHandle": "source",
+            "target": "0.4208079109911633",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6396962086555251source-0.4208079109911633target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7577191031030914",
+            "sourceHandle": "source",
+            "target": "8-copy0.3491647860917064",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7577191031030914source-8-copy0.3491647860917064target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.21531155081321418",
+            "sourceHandle": "source",
+            "target": "8-copy0.3491647860917064",
+            "targetHandle": "target",
+            "id": "xy-edge__0.21531155081321418source-8-copy0.3491647860917064target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.03445693789308979",
+            "sourceHandle": "source",
+            "target": "0.6270523473534888",
+            "targetHandle": "target",
+            "id": "xy-edge__0.03445693789308979source-0.6270523473534888target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7804873363755258",
+            "sourceHandle": "source",
+            "target": "0.03445693789308979",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7804873363755258source-0.03445693789308979target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2641070060566606",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2641070060566606source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "encode/decodes",
+                "d3f_property": "encode/decodes",
+                "d3f_class_label": "encode/decodes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7675708387297528",
+            "sourceHandle": "source",
+            "target": "0.2641070060566606",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7675708387297528source-0.2641070060566606target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7450981058674999",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7450981058674999source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.2845432052617751",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__0.2845432052617751source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "1-copy0.8600764972437254",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__1-copy0.8600764972437254source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5994513097971723",
+            "sourceHandle": "source",
+            "target": "0.9886831670577353",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5994513097971723source-0.9886831670577353target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.359020843492015",
+            "sourceHandle": "source",
+            "target": "0.4208079109911633",
+            "targetHandle": "target",
+            "id": "xy-edge__0.359020843492015source-0.4208079109911633target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.03433189277159632",
+            "sourceHandle": "source",
+            "target": "0.7450981058674999",
+            "targetHandle": "target",
+            "id": "xy-edge__0.03433189277159632source-0.7450981058674999target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.06506470221229688",
+            "sourceHandle": "source",
+            "target": "4-copy0.7921610691012586",
+            "targetHandle": "target",
+            "id": "xy-edge__0.06506470221229688source-4-copy0.7921610691012586target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "4-copy0.7921610691012586",
+            "sourceHandle": "source",
+            "target": "0.09687830493083016",
+            "targetHandle": "target",
+            "id": "xy-edge__4-copy0.7921610691012586source-0.09687830493083016target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09687830493083016",
+            "sourceHandle": "source",
+            "target": "0.19172154106290062",
+            "targetHandle": "target",
+            "id": "xy-edge__0.09687830493083016source-0.19172154106290062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "6-copy0.7237157440463904",
+            "sourceHandle": "source",
+            "target": "0.19172154106290062",
+            "targetHandle": "target",
+            "id": "xy-edge__6-copy0.7237157440463904source-0.19172154106290062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.061213059603137054",
+            "sourceHandle": "source",
+            "target": "0.19172154106290062",
+            "targetHandle": "target",
+            "id": "xy-edge__0.061213059603137054source-0.19172154106290062target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8348183345694304",
+            "sourceHandle": "source",
+            "target": "0.20913441410650624",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8348183345694304source-0.20913441410650624target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "summarizes",
+                "d3f_property": "d3f:summarizes",
+                "d3f_class_label": "summarizes"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.03527117822194348",
+            "sourceHandle": "source",
+            "target": "0.8348183345694304",
+            "targetHandle": "target",
+            "id": "xy-edge__0.03527117822194348source-0.8348183345694304target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "d3f:contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8348183345694304",
+            "sourceHandle": "source",
+            "target": "0.7440821392472912",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8348183345694304source-0.7440821392472912target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8871455585467758",
+            "sourceHandle": "source",
+            "target": "8-copy0.3491647860917064",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8871455585467758source-8-copy0.3491647860917064target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {},
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.8643394827598005",
+            "sourceHandle": "source",
+            "target": "0.8643394827598005",
+            "targetHandle": "target",
+            "id": "xy-edge__0.8643394827598005source-0.8643394827598005target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.10243705258230595",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.10243705258230595source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.27988430788658847",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.27988430788658847source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.33261502195321113",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.33261502195321113source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.44566886154540675",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.44566886154540675source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.284631304407551",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.284631304407551source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.561585153014363",
+            "sourceHandle": "source",
+            "target": "0.13571630167926618",
+            "targetHandle": "target",
+            "id": "xy-edge__0.561585153014363source-0.13571630167926618target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.880694407236208",
+            "sourceHandle": "source",
+            "target": "0.4008398682602008",
+            "targetHandle": "target",
+            "id": "xy-edge__0.880694407236208source-0.4008398682602008target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6261091004010086",
+            "sourceHandle": "source",
+            "target": "0.4008398682602008",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6261091004010086source-0.4008398682602008target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf",
+                "d3f_class_label": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1915102527626651",
+            "sourceHandle": "source",
+            "target": "0.4008398682602008",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1915102527626651source-0.4008398682602008target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "d3f:contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.880694407236208",
+            "sourceHandle": "source",
+            "target": "0.6396962086555251",
+            "targetHandle": "target",
+            "id": "xy-edge__0.880694407236208source-0.6396962086555251target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "d3f:contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6261091004010086",
+            "sourceHandle": "source",
+            "target": "0.359020843492015",
+            "targetHandle": "target",
+            "id": "xy-edge__0.6261091004010086source-0.359020843492015target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "d3f:contains",
+                "d3f_property": "d3f:contains",
+                "d3f_class_label": "d3f:contains"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.1915102527626651",
+            "sourceHandle": "source",
+            "target": "0.7450981058674999",
+            "targetHandle": "target",
+            "id": "xy-edge__0.1915102527626651source-0.7450981058674999target",
+            "selected": false
+        }
+    ]
+}
