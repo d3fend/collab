@@ -1,3 +1,38 @@
+# CDR BLOG POST
+
+Content Disarm and Reconstruction (CDR) is a technology that removes potentially malicious threats from files. A common place application of CDR tools is scanning incoming email attachments, such as Microsoft Office documents or PDFs, for malware. The tool may deconstruct and analyze the file, remove parts of the file deemed suspicious, and then reconstruct the file with the remaining pieces. This process ensures that only safe and sanitized content reaches the end-user, significantly reducing the risk of malware infections. CDR technology is also an integral part of Cross-Domain Solutions (CDS), integrated software-hardware systems that facilitate the access or transfer of information between multiple security domains that may have different security classifications or policies. Today, CDS systems are widely used in military and intelligence environments, and the importance of secure, effective CDS remains high with the introduction of the NSA's "Raising the Bar" (RTB) initiative. This initiative underscores the critical need for robust security measures in environments where sensitive information is frequently exchanged.
+
+The D3FEND team has started modeling components of the Content Disarm and Reconstruction pipeline. This blog post will detail the methodology and reasoning we used and depict our resulting model with D3FEND's CAD tool. By doing so, we aim to provide a comprehensive framework that can be utilized by cybersecurity professionals to enhance their understanding and implementation of CDR techniques.
+
+
+## A Brief Introduction to CAD
+
+CADUCEUS (Cyber Attack-Defense Utility for Capturing Engagements and Understandable Scenarios), or CAD for short, is a new tool being developed by the D3FEND team to support modeling and graphing use cases. The tool lets you easily drag and drop nodes to represent ATT&CK and D3FEND techniques, digital artifacts, and more, which can be populated with a specific class such as d3f:WebApplicationFirewall. Additionally, edges can be drawn between nodes to represent relationships between classes, and the options are prepopulated with relationships currently defined in D3FEND.  CAD harnesses the power of the D3FEND ontology to perform automated reasoning on certain types of nodes. For example, from a single digital artifact node, users can then see what offensive and defensive techniques are related to that node, as well as the full set of class inferences for that digital artifact, and vice versa. This feature allows users to explore complex relationships and dependencies within cybersecurity scenarios, offering deeper insights into potential vulnerabilities and mitigation strategies. We hope that this tool can be used to aid the visual representation of a wide array of use cases, with different levels of granularity, from modeling a full adversary campaign to a malware sample. For more information, check out d3fend.mitre.org/cad and click help for documentation.
+
+## Methodology
+
+Like the rest of the content within D3FEND, we utilized numerous sources of research and patent literature to gather information about specific techniques utilized in CDR technology at a detailed technical level. While doing so, we kept techniques that were cybersecurity-related and excluded those that were not, such as physical techniques. We then abstracted techniques into a Content Filtering (d3f:ContentFiltering) taxonomy before diving into defining digital artifacts associated with the techniques. While the existing D3FEND ontology had some relevant digital artifacts, this work required additional artifacts to be added to the ontology. Finally, we defined precise relationships between the artifacts themselves and the techniques. As a result, we have added X new techniques and Y new digital artifacts to the D3FEND framework.
+
+#### Challenges
+
+While there are countless vendors offering CDR and CDS products, due to the confidential nature of its applications and the competitive vendor landscape, it was quite challenging to research what specific CDR techniques the products use. The information available on vendor websites is vague and there aren't many patents in this space, likely because vendors want to keep their propriety knowledge confidential. While the NSA has created the RTB initiative in 2018, which has continuously set guidelines including security standards and requirements to secure CDS systems, the details aren't publicly accessible. In summary, open-source knowledge on CDR is neither in-depth nor easily accessible, but that is a problem this work attempts to solve. 
+
+## Deconstructing CDR
+
+Content Disarm and Reconstruction (CDR) is not listed as a D3FEND technique as it is composite; that is, it is composed of a series of techniques in a pipeline:​
+
+- verification​
+- content extraction & inspection​
+- sanitization​
+- augmentation​
+- reconstruction
+
+Among these discrete steps outlined above, some steps are not specifically security related. Specifically, a CDR tool may deconstruct and then reconstruct content regardless of it being infected or not. Additionally, the atomic steps of deconstruction and reconstruction does not inherently improve the security of the content in a useful way. Thus, we have focused on the intermediate filtering step that encompasses validating and altering the content so that the output after the entire CDR process is a sanitized version. The key is that all sub-techniques of Content Filtering (d3f:ContentFiltering) focus on ensuring compliance of a specific security-focused Content Policy (d3f:ContentPolicy).  Content Filtering is separated into three sub-techniques: Content Validation (d3f:ContentValidation) checks if the content adheres to the security policy, Content Transformation (d3f:ContentTransformation) modifies the content to a state of compliance, whether by removing, replacing, or converting, and then finally, there is an option to quarantine non-compliant content. This structured approach allows for flexibility and adaptability in handling diverse content types and security requirements.
+
+## File Format Verification Deep Dive
+
+<!-- Embed the HTML iframe below -->
+<!DOCTYPE html>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -2111,3 +2146,18 @@
     ></iframe>
   </main>
 </html>
+
+File Format Verification (d3f:FileFormatVerification) is an important step during Content Validation that safeguards against adversaries masquerading file types (T1036). We wanted to expand on that and provide a few specific techniques to verify file formats with greater technical detail. When researching, we could not find many academic or patent literature from vendor sources in a strict CDR context, but there are published papers related to this in the digital forensic space of file carving. The most common way to verify a file is File Magic Byte Verification (d3f:FileMagicByteVerification), checking that the magic number matches the declared file type. This technique is fundamental in ensuring that files are not misrepresented, which is a common tactic used by adversaries to bypass security measures. The other techniques listed, such as File Entropy Anomaly Detection (d3f:FileEntropyAnomalyDetection), involve more complex procedures. These advanced techniques provide additional layers of security by identifying anomalies that may indicate malicious intent as it is possible for an adversary to spoof the magic number.
+
+## Creating Digital Artifacts
+
+Generating new CDR techniques provided an opportunity to expand the digital artifact ontology. Specifically, while the File (d3f:File) and File Section (d3f:FileSection) artifacts already existed, we've expanded File Section to include the following subclasses to allow more detailed and accurate modeling of file structures: File Header Block (d3f:FileHeaderBlock), File Content Block (d3f:FileContentBlock), and File Footer Block (d3f:FileFooterBlock). The header and footer blocks may contain a signature and additional content, which are types of file metadata; the content block will contain the block's data but may also include some metadata as well, depending on the file format. These artifacts aim to allow any file type to be modeled abstractly. For example, a zip file format can be shown as follows:
+
+
+With our artifacts, the local file headers and central directory headers are represented by d3f:FileHeaderBlock, where the value of d3f:FileHeaderBlockSignature of the local file headers is 0x504b0304 and the value of the central directory headers is 0x504b0102, according to the zip file format specifications. The data that serve as the data of the zipped files is represented by d3f:FileContentBlockData. Finally, the end of the central directory record is a d3f:FileFooterBlock whose d3f:FileFooterBlockSignature is 0x503b0506. We've provided examples of modeling a PDF and a PE32 file within the notes of the diagram as well.  These examples demonstrate the versatility and applicability of our expanded ontology across different file types and use cases.
+
+## Conclusion
+
+The full, holistic diagram of our CDR work can be found in the CAD diagram below. 
+
+We hope that this blog post shares our insights into our research on CDR techniques and artifacts, as well as provides an introduction to D3FEND's new CAD tool. We believe that this work represents a significant step forward in the understanding and application of CDR technologies. We would love to receive the cybersecurity community's feedback through our GitHub page (XXX). 
