@@ -514,9 +514,6 @@ While there are countless vendors offering CDR products, due to the confidential
     </style>
   </head>
   <main>
-    <div id="metadata-render">
-      <section class="content"><h1 class="text-left"></h1> <p class="text-large text-left"></p> <div class="headers svelte-bf4y76" style="margin-top: 10px;"><p class="text-bold" style="margin-bottom: 0px;">Orgs</p> <div><span class="view-list svelte-bf4y76"></span></div></div> <div class="version-date svelte-bf4y76"><p>Invalid Date</p> <p style="margin-left: auto;"></p></div> <hr> <div class="headers svelte-bf4y76"><div class="text-bold">Author</div> <p style="margin-top: 0px;"><em class="font-large"><span class="view-list svelte-bf4y76"></span></em></p></div> <div><b>References:</b> <div class="refs svelte-bf4y76"><a href=""></a></div></div> <div></div></section>
-    </div>
     <iframe
       id="iframe"
       src="https://next.d3fend.mitre.org/cad-frame/"
