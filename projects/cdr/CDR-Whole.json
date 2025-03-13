@@ -49,8 +49,8 @@
             "id": "0.47249815289283914",
             "type": "countermeasure-node",
             "position": {
-                "x": -199.02670471453098,
-                "y": 197.14827654927035
+                "x": -195.23741329825498,
+                "y": 351.2461274778274
             },
             "data": {
                 "label": "Content Validation",
@@ -76,8 +76,9 @@
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "9-copy0.9142249922179582",
@@ -119,8 +120,8 @@
             "id": "0.48426736445356067",
             "type": "countermeasure-node",
             "position": {
-                "x": -225.58145758492446,
-                "y": 1289.4520608720309
+                "x": -211.89694327871774,
+                "y": 1151.7744727473364
             },
             "data": {
                 "label": "Content Quarantine",
@@ -651,8 +652,8 @@
             "id": "0.34945809922391347",
             "type": "countermeasure-node",
             "position": {
-                "x": 1346.9039442419066,
-                "y": -1774.021141315784
+                "x": 1344.7047643906185,
+                "y": -1554.1031561869686
             },
             "data": {
                 "label": "File Metadata Value Verification",
@@ -687,14 +688,15 @@
                 "height": 367
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.3258831965382004",
             "type": "countermeasure-node",
             "position": {
-                "x": 2152.80167586346,
-                "y": -1549.694864382639
+                "x": 2150.6024960121717,
+                "y": -1329.7768792538236
             },
             "data": {
                 "label": "File Magic Byte Verification",
@@ -725,14 +727,15 @@
                 "height": 195
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.9774559813293479",
             "type": "countermeasure-node",
             "position": {
-                "x": 1339.9684831599764,
-                "y": -1370.8287225093554
+                "x": 1350.964382416417,
+                "y": -1143.7634028638533
             },
             "data": {
                 "label": "File Internal Structure Verification",
@@ -767,7 +770,8 @@
                 "height": 381
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.2756682259786878",
@@ -808,49 +812,11 @@
             "dragging": false
         },
         {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1342.531722857666,
-                "y": -31.098944953378805
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                    ],
-                    [
-                        "reference",
-                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                    ],
-                    [
-                        "kb-article",
-                        " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                    ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
-                "x": 1356.972968601815,
-                "y": -946.7293321003706
+                "x": 1350.3754290479505,
+                "y": -711.417088012538
             },
             "data": {
                 "label": "File Metadata Consistency Validation",
@@ -881,41 +847,8 @@
                 "height": 335
             },
             "selected": false,
-            "dragging": false
-        },
-        {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1352.040606186807,
-                "y": -560.3643636572313
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Utilizing entropy values as a signature to identify different file types"
-                    ],
-                    [
-                        "reference",
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                    ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
-            },
-            "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.20366737316992256",
@@ -937,7 +870,7 @@
             ],
             "measured": {
                 "width": 150,
-                "height": 102
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -1021,8 +954,8 @@
                 0
             ],
             "measured": {
-                "width": 150,
-                "height": 102
+                "width": 159,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -1230,6 +1163,242 @@
                 "width": 379,
                 "height": 117
             },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.6808450084424931",
+            "type": "attack-node",
+            "position": {
+                "x": 2793.950145035385,
+                "y": -66.32891787068344
+            },
+            "data": {
+                "label": "Office Template Macros",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1137.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.09910986957621404",
+            "type": "attack-node",
+            "position": {
+                "x": 4955.487689370096,
+                "y": -82.23175635099864
+            },
+            "data": {
+                "label": "Masquerade File Type",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1036.008"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.9869569819632811",
+            "type": "attack-node",
+            "position": {
+                "x": 4316.045605088414,
+                "y": 73.79977020276513
+            },
+            "data": {
+                "label": "Malicious Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.003"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4556303405855364",
+            "type": "attack-node",
+            "position": {
+                "x": 4385.9247550174005,
+                "y": 160.90939545670685
+            },
+            "data": {
+                "label": "Malicious Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.11473781863281762",
+            "type": "attack-node",
+            "position": {
+                "x": 4464.419142608863,
+                "y": 243.23277756482761
+            },
+            "data": {
+                "label": "Embedded Payloads",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1027.009"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.035945587722548966",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1934.6690780762065,
+                "y": 59.84049243098055
+            },
+            "data": {
+                "label": "Cleartext Storage of Sensitive Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-312"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 337,
+            "height": 83
+        },
+        {
+            "id": "0.6373118746457436",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1828.3356111946912,
+                "y": 154.6208321718074
+            },
+            "data": {
+                "label": "Improper Removal of Sensitive Information Before Storage or Transfer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-212"
+            },
+            "measured": {
+                "width": 443,
+                "height": 81
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 443,
+            "height": 81,
+            "dragging": false
+        },
+        {
+            "id": "0.0176150859463724",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1931.3507611847324,
+                "y": 256.91052335910183
+            },
+            "data": {
+                "label": "Insertion of Sensitive Information Into Sent Data",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-201"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "selected": false,
+            "width": 337,
+            "height": 83,
+            "dragging": false
+        },
+        {
+            "id": "0.18989037913866968",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1083.9669679373612,
+                "y": 1533.718016193416
+            },
+            "data": {
+                "label": "Exposure of Sensitive Information Through Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-1230"
+            },
+            "measured": {
+                "width": 351,
+                "height": 98
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 351,
+            "height": 98
+        },
+        {
+            "id": "0.3233797771654314",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 170.13278674828052,
+                "y": 1207.4361003630295
+            },
+            "data": {
+                "label": "Content Rebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
+            },
+            "measured": {
+                "width": 462,
+                "height": 145
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3184595035224653",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1518.2887828827008,
+                "y": 762.797282005339
+            },
+            "data": {
+                "label": "Isolate",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Isolate"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
             "selected": false,
             "dragging": false
         }
@@ -1646,22 +1815,6 @@
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.40552351868555836",
@@ -1678,43 +1831,11 @@
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.30470669924201865",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.30470669924201865",
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
             "selected": false
         },
         {
@@ -2046,22 +2167,6 @@
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.5507247954821324",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.5507247954821324target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.34945809922391347",
             "sourceHandle": "source",
             "target": "0.14499280157174388",
@@ -2097,6 +2202,212 @@
             "target": "0.16090754731449974",
             "targetHandle": "target",
             "id": "xy-edge__0.30470669924201865source-0.16090754731449974target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5507247954821324",
+            "sourceHandle": "source",
+            "target": "0.6808450084424931",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4348418949914672__0.5507247954821324source-0.6808450084424931target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09910986957621404",
+            "sourceHandle": "source",
+            "target": "0.28963955228702054",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8515281304481415__0.09910986957621404source-0.28963955228702054target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.9869569819632811",
+            "targetHandle": "target",
+            "id": "xy-edge-0.539449678679707__0.30470669924201865source-0.9869569819632811target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.4556303405855364",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9094396231656217__0.30470669924201865source-0.4556303405855364target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.11473781863281762",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5633636652219103__0.30470669924201865source-0.11473781863281762target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.035945587722548966",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8415422804614472__0.035945587722548966source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6373118746457436",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6665583694887531__0.6373118746457436source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0176150859463724",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7500348604005638__0.0176150859463724source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18989037913866968",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge-0.30412468187121555__0.18989037913866968source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.23175157805602664__0.3233797771654314source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:creates",
+                "label": "creates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "0.6146071780317519",
+            "targetHandle": "target",
+            "id": "xy-edge-0.603753203094493__0.3233797771654314source-0.6146071780317519target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7032304012631014",
+            "sourceHandle": "source",
+            "target": "0.3184595035224653",
+            "targetHandle": "target",
+            "id": "xy-edge-0.92189218431369__0.7032304012631014source-0.3184595035224653target",
             "selected": false
         }
     ]

@@ -11,7 +11,7 @@ The new D3FEND CAD tool is being developed by the D3FEND team to support modelin
 
 ## Methodology
 
-Like the rest of the content within D3FEND, we utilized numerous sources of research and patent literature to gather information about specific techniques utilized in CDR technology at a detailed technical level. While doing so, we kept techniques that were cybersecurity-related and excluded those that were not, such as physical techniques. We then abstracted techniques into a Content Filtering (d3f:ContentFiltering) taxonomy before diving into defining digital artifacts associated with the techniques. While the existing D3FEND ontology had some relevant digital artifacts, this work required additional artifacts to be added to the ontology. Finally, we defined precise relationships between the artifacts themselves and the techniques. As a result, we have added X new techniques and Y new digital artifacts to the D3FEND framework.
+Like the rest of the content within D3FEND, we utilized numerous sources of research and patent literature to gather information about specific techniques utilized in CDR technology at a detailed technical level. While doing so, we kept techniques that were cybersecurity-related and excluded those that were not, such as physical techniques. We then abstracted techniques into a Content Filtering (d3f:ContentFiltering) taxonomy before diving into defining digital artifacts associated with the techniques. While the existing D3FEND ontology had some relevant digital artifacts, this work required additional artifacts to be added to the ontology. Finally, we defined precise relationships between the artifacts themselves and the techniques. As a result, we have added 14 new techniques and 43 new digital artifacts to the D3FEND framework.
 
 #### Challenges
 
@@ -27,8 +27,8 @@ While there are countless vendors offering CDR products, due to the confidential
     <title>D3FEND Filtering Techniques</title>
     <script>
       const filtering = {
-        "nodes": [
-            {
+         "nodes": [
+        {
             "id": "0.7032304012631014",
             "type": "countermeasure-node",
             "position": {
@@ -54,8 +54,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "dragging": false,
             "width": 444,
             "height": 235
-            },
-            {
+        },
+        {
             "id": "0.47249815289283914",
             "type": "countermeasure-node",
             "position": {
@@ -66,14 +66,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "Content Validation",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Verify and validate contents complies with policy"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Verify and validate contents complies with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentValidation",
                 "d3f_class_label": "Content Validation"
@@ -88,29 +88,29 @@ While there are countless vendors offering CDR products, due to the confidential
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "9-copy0.9142249922179582",
             "type": "countermeasure-node",
             "position": {
-                "x": -76.43288829336501,
+                "x": -87.55033496730823,
                 "y": 744.0150115907652
             },
             "data": {
-                "label": "Content Tranformation",
+                "label": "Content Modification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Modify content that does not comply with policy"
+                    [
+                        "d3f:definition",
+                        "Modify content that does not comply with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
-                ],
-                "d3f_class": ":ContentTranformation",
-                "d3f_class_label": "Content Tranformation"
+                "d3f_class": ":ContentModification",
+                "d3f_class_label": ":ContentModification"
             },
             "origin": [
                 0.5,
@@ -124,8 +124,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "dragging": false,
             "width": 409,
             "height": 138
-            },
-            {
+        },
+        {
             "id": "0.48426736445356067",
             "type": "countermeasure-node",
             "position": {
@@ -136,14 +136,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "Content Quarantine",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Transfer content that does not comply with policy to quanrantine zone"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Transfer content that does not comply with policy to quanrantine zone"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentQuarantine",
                 "d3f_class_label": "Content Quarantine"
@@ -160,8 +160,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "dragging": false,
             "width": 474,
             "height": 177
-            },
-            {
+        },
+        {
             "id": "0.5762349378605824",
             "type": "countermeasure-node",
             "position": {
@@ -172,14 +172,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "Content Format Conversion",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Converting a file from one form to another, usually a simpler and safer format"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Converting a file from one form to another, usually a simpler and safer format"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentFormatConversion",
                 "d3f_class_label": "Content Format Conversion"
@@ -194,8 +194,8 @@ While there are countless vendors offering CDR products, due to the confidential
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.7617608511325669",
             "type": "countermeasure-node",
             "position": {
@@ -206,14 +206,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "Content Excision",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Removing specific, potentially malicious, parts of content"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Removing specific, potentially malicious, parts of content"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentExcision",
                 "d3f_class_label": "Content Excision"
@@ -228,8 +228,8 @@ While there are countless vendors offering CDR products, due to the confidential
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.0744514779826817",
             "type": "countermeasure-node",
             "position": {
@@ -240,14 +240,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "Content Substitution",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Replace specific parts of content with something else"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Replace specific parts of content with something else"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentSubstitution",
                 "d3f_class_label": "Content Substitution"
@@ -262,8 +262,8 @@ While there are countless vendors offering CDR products, due to the confidential
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.40552351868555836",
             "type": "countermeasure-node",
             "position": {
@@ -274,14 +274,14 @@ While there are countless vendors offering CDR products, due to the confidential
                 "label": "File Format Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "verifying that a file conforms to its expected format specifications"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileFormatVerification",
                 "d3f_class_label": "File Format Verification"
@@ -296,10 +296,36 @@ While there are countless vendors offering CDR products, due to the confidential
             },
             "selected": false,
             "dragging": false
-            }
-        ],
-        "edges": [
-            {
+        },
+        {
+            "id": "0.9177074049964316",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 327.46327984079613,
+                "y": 1195.6129684836421
+            },
+            "data": {
+                "label": ":ContentRebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
+            },
+            "measured": {
+                "width": 462,
+                "height": 145
+            },
+            "zIndex": 10,
+            "selected": true,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -314,8 +340,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.47249815289283914source-0.7032304012631014target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -330,8 +356,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__9-copy0.9142249922179582source-0.7032304012631014target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -346,8 +372,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.48426736445356067source-0.7032304012631014target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -362,8 +388,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.40552351868555836source-0.47249815289283914target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -378,8 +404,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.5762349378605824source-9-copy0.9142249922179582target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -394,8 +420,8 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.7617608511325669source-9-copy0.9142249922179582target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -410,8 +436,26 @@ While there are countless vendors offering CDR products, due to the confidential
             "targetHandle": "target",
             "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
             "selected": false
-            }
-        ]
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9177074049964316",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6873659164802763__0.9177074049964316source-9-copy0.9142249922179582target",
+            "selected": false
+        }
+    ]
         };
     const post_cad1 = (event) => {
         const iframe1 = document.getElementById("iframe");
@@ -501,26 +545,26 @@ Among these discrete steps outlined above, some steps are not specifically secur
     <title>D3FEND EMBEDDED FILE FORMAT VERIFICATION</title>
     <script>
       const fileformat = {
-        "nodes": [
-            {
+       "nodes": [
+        {
             "id": "0.40552351868555836",
             "type": "countermeasure-node",
             "position": {
-                "x": 267.12257821267053,
-                "y": -54.58491005080862
+                "x": 272.00961679830516,
+                "y": -114.8583859403023
             },
             "data": {
                 "label": "File Format Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "verifying that a file conforms to its expected format specifications"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileFormatVerification",
                 "d3f_class_label": "File Format Verification"
@@ -533,10 +577,11 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
-            },
-            {
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.34945809922391347",
             "type": "countermeasure-node",
             "position": {
@@ -547,22 +592,22 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "label": "File Metadata Value Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
-                ],
-                [
-                    "reference",
-                    "https://core.ac.uk/download/pdf/326762883.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "description",
-                    "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://core.ac.uk/download/pdf/326762883.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataValueVerification",
                 "d3f_class_label": ":FileMetadataValueVerification"
@@ -577,8 +622,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.3258831965382004",
             "type": "countermeasure-node",
             "position": {
@@ -589,18 +634,18 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "label": "File Magic Byte Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing the magic number to verify the file"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ]
+                    [
+                        "d3f:definition",
+                        "Utilizing the magic number to verify the file"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ]
                 ],
                 "d3f_class": ":FileMagicByteVerification",
                 "d3f_class_label": "File Magic Byte Verification"
@@ -615,8 +660,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.9774559813293479",
             "type": "countermeasure-node",
             "position": {
@@ -627,22 +672,22 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "label": "File Metadata Consistency Validation",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "description",
-                    "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataConsistencyValidation",
                 "d3f_class_label": ":FileMetadataConsistencyValidation"
@@ -657,8 +702,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.2756682259786878",
             "type": "countermeasure-node",
             "position": {
@@ -669,18 +714,18 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "label": "File Content Decompression Checking",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileContentDecompressionChecking",
                 "d3f_class_label": "File Content Decompression Checking"
@@ -695,46 +740,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             },
             "selected": false,
             "dragging": false
-            },
-            {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.5165347551717,
-                "y": 385.44157590541977
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "kb-article",
-                    " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
@@ -745,18 +752,18 @@ Among these discrete steps outlined above, some steps are not specifically secur
                 "label": "File Internal Structure Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of verifying that a file's internal structure adheres to the expected format, ensuring the presence and correct positioning of defined blocks or sections within the file."
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "description",
-                    "This technique ensures that a file's internal structure adheres to the expected format. It verifies the presence and correct positioning of defined blocks or sections within the file according to its format specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of verifying that a file's internal structure adheres to the expected format, ensuring the presence and correct positioning of defined blocks or sections within the file."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "This technique ensures that a file's internal structure adheres to the expected format. It verifies the presence and correct positioning of defined blocks or sections within the file according to its format specification."
+                    ]
                 ],
                 "d3f_class": ":FileInternalStructureVerification",
                 "d3f_class_label": ":FileInternalStructureVerification"
@@ -771,44 +778,10 @@ Among these discrete steps outlined above, some steps are not specifically secur
             },
             "selected": false,
             "dragging": false
-            },
-            {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.0694906739984,
-                "y": 686.6164908287806
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing entropy values as a signature to identify different file types"
-                ],
-                [
-                    "reference",
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
-            },
-            "selected": false,
-            "dragging": false
-            }
-        ],
-        "edges": [
-            {
+        }
+    ],
+    "edges": [
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -823,8 +796,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             "targetHandle": "target",
             "id": "xy-edge__0.34945809922391347source-0.40552351868555836target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -839,8 +812,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             "targetHandle": "target",
             "id": "xy-edge__0.3258831965382004source-0.34945809922391347target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -855,8 +828,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             "targetHandle": "target",
             "id": "xy-edge__0.9774559813293479source-0.40552351868555836target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -872,24 +845,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             "targetHandle": "target",
             "id": "xy-edge__0.2756682259786878source-0.40552351868555836target",
             "selected": false
-            },
-            {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -904,24 +861,8 @@ Among these discrete steps outlined above, some steps are not specifically secur
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.40552351868555836target",
             "selected": false
-            },
-            {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
-            "selected": false
-            }
-        ]
+        }
+    ]
         };
     const post_cad2 = (event) => {
         const iframe2 = document.getElementById("iframe2");
@@ -1995,7 +1936,7 @@ We hope that this blog post shares our insights into our research on CDR techniq
     <script>
       const whole = {
         "nodes": [
-            {
+        {
             "id": "0.7032304012631014",
             "type": "countermeasure-node",
             "position": {
@@ -2021,26 +1962,26 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 444,
             "height": 235
-            },
-            {
+        },
+        {
             "id": "0.47249815289283914",
             "type": "countermeasure-node",
             "position": {
-                "x": -199.02670471453098,
-                "y": 197.14827654927035
+                "x": -195.23741329825498,
+                "y": 351.2461274778274
             },
             "data": {
                 "label": "Content Validation",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Verify and validate contents complies with policy"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Verify and validate contents complies with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentValidation",
                 "d3f_class_label": "Content Validation"
@@ -2053,31 +1994,32 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
-            },
-            {
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "9-copy0.9142249922179582",
             "type": "countermeasure-node",
             "position": {
-                "x": -61.62303318705983,
-                "y": 744.0150115907652
+                "x": -187.97985223673362,
+                "y": 749.7585033657504
             },
             "data": {
-                "label": "Content Tranformation",
+                "label": "Content Modification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Modify content that does not comply with policy"
+                    [
+                        "d3f:definition",
+                        "Modify content that does not comply with policy"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
-                ],
-                "d3f_class": ":ContentTranformation",
-                "d3f_class_label": "Content Tranformation"
+                "d3f_class": ":ContentModification",
+                "d3f_class_label": ":ContentModification"
             },
             "origin": [
                 0.5,
@@ -2091,26 +2033,26 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 409,
             "height": 138
-            },
-            {
+        },
+        {
             "id": "0.48426736445356067",
             "type": "countermeasure-node",
             "position": {
-                "x": 69.10864248768848,
-                "y": 1498.3741467444058
+                "x": -211.89694327871774,
+                "y": 1151.7744727473364
             },
             "data": {
                 "label": "Content Quarantine",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Transfer content that does not comply with policy to quanrantine zone"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Transfer content that does not comply with policy to quanrantine zone"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentQuarantine",
                 "d3f_class_label": "Content Quarantine"
@@ -2127,26 +2069,26 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 474,
             "height": 177
-            },
-            {
+        },
+        {
             "id": "0.5762349378605824",
             "type": "countermeasure-node",
             "position": {
-                "x": 552.4804461114722,
-                "y": 980.8377568920262
+                "x": 397.8581120342072,
+                "y": 960.0629696433737
             },
             "data": {
                 "label": "Content Format Conversion",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Converting a file from one form to another, usually a simpler and safer format"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Converting a file from one form to another, usually a simpler and safer format"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentFormatConversion",
                 "d3f_class_label": "Content Format Conversion"
@@ -2161,26 +2103,26 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.7617608511325669",
             "type": "countermeasure-node",
             "position": {
-                "x": 527.4399860621706,
-                "y": 498.71277053174447
+                "x": 391.5106807208549,
+                "y": 475.73880343180383
             },
             "data": {
                 "label": "Content Excision",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Removing specific, potentially malicious, parts of content"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Removing specific, potentially malicious, parts of content"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentExcision",
                 "d3f_class_label": "Content Excision"
@@ -2195,26 +2137,26 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.0744514779826817",
             "type": "countermeasure-node",
             "position": {
-                "x": 554.1008675558159,
-                "y": 757.814109274644
+                "x": 400.57812340419486,
+                "y": 734.8401421747034
             },
             "data": {
                 "label": "Content Substitution",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Replace specific parts of content with something else"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Replace specific parts of content with something else"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":ContentSubstitution",
                 "d3f_class_label": "Content Substitution"
@@ -2229,8 +2171,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.5507247954821324",
             "type": "artifact-node",
             "position": {
@@ -2256,8 +2198,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 356,
             "height": 148
-            },
-            {
+        },
+        {
             "id": "0.28963955228702054",
             "type": "artifact-node",
             "position": {
@@ -2268,10 +2210,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Magic Bytes",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A specific type of header signature located at the beginning of a file, used to identify the file format."
-                ]
+                    [
+                        "definition",
+                        "A specific type of header signature located at the beginning of a file, used to identify the file format."
+                    ]
                 ],
                 "d3f_class": ":FileMagicBytes",
                 "d3f_class_label": "File Magic Bytes"
@@ -2288,8 +2230,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 207,
             "height": 107
-            },
-            {
+        },
+        {
             "id": "0.0490499135274598",
             "type": "artifact-node",
             "position": {
@@ -2300,10 +2242,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Header Block",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "Headers are sections of a file that organize and provide information about specific sections or components of the file. Typically found at the beginning of a file, they often contain file type identification, version information, and metadata such as size, format, and encoding."
-                ]
+                    [
+                        "definition",
+                        "Headers are sections of a file that organize and provide information about specific sections or components of the file. Typically found at the beginning of a file, they often contain file type identification, version information, and metadata such as size, format, and encoding."
+                    ]
                 ],
                 "d3f_class": ":FileHeaderBlock",
                 "d3f_class_label": "File Header Block"
@@ -2320,8 +2262,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 309,
             "height": 102
-            },
-            {
+        },
+        {
             "id": "0.1230247439051928",
             "type": "artifact-node",
             "position": {
@@ -2332,10 +2274,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Content Block",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A section within a file that contains the main content or data payload."
-                ]
+                    [
+                        "definition",
+                        "A section within a file that contains the main content or data payload."
+                    ]
                 ],
                 "d3f_class": ":FileContentBlock",
                 "d3f_class_label": "File Content Block"
@@ -2350,8 +2292,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "-copy0.23195137482463135",
             "type": "artifact-node",
             "position": {
@@ -2362,10 +2304,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Metadata",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "Information that describes and provides context about a file's content, structure, and attributes."
-                ]
+                    [
+                        "definition",
+                        "Information that describes and provides context about a file's content, structure, and attributes."
+                    ]
                 ],
                 "d3f_class": ":FileMetadata",
                 "d3f_class_label": "File Metadata"
@@ -2380,8 +2322,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.34302096991368103",
             "type": "artifact-node",
             "position": {
@@ -2392,10 +2334,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Header Block Content",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "The content of a header block not including the signature."
-                ]
+                    [
+                        "definition",
+                        "The content of a header block not including the signature."
+                    ]
                 ],
                 "d3f_class": ":FileHeaderBlockContent",
                 "d3f_class_label": "File Header Block Content"
@@ -2410,8 +2352,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.09325736548375141",
             "type": "artifact-node",
             "position": {
@@ -2422,10 +2364,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Content Block Metadata",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "Content Blocks may contain metadata specific to the block's content at the beginning"
-                ]
+                    [
+                        "definition",
+                        "Content Blocks may contain metadata specific to the block's content at the beginning"
+                    ]
                 ],
                 "d3f_class": ":FileContentBlockMetadata",
                 "d3f_class_label": "File Content Block Metadata"
@@ -2440,8 +2382,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.30470669924201865",
             "type": "artifact-node",
             "position": {
@@ -2452,10 +2394,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Content Block Data",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "The actual content or main data within a file or data block."
-                ]
+                    [
+                        "definition",
+                        "The actual content or main data within a file or data block."
+                    ]
                 ],
                 "d3f_class": ":FileContentBlockData",
                 "d3f_class_label": "File Content Block Data"
@@ -2470,8 +2412,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.40552351868555836",
             "type": "countermeasure-node",
             "position": {
@@ -2482,14 +2424,14 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Format Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "verifying that a file conforms to its expected format specifications"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileFormatVerification",
                 "d3f_class_label": "File Format Verification"
@@ -2504,8 +2446,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.6146071780317519",
             "type": "artifact-node",
             "position": {
@@ -2531,8 +2473,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 241,
             "height": 113
-            },
-            {
+        },
+        {
             "id": "0.7314564313202583",
             "type": "artifact-node",
             "position": {
@@ -2543,10 +2485,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "Content Policy",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A set of rules and guidelines that dictate the acceptable use, distribution, and management of digital content within a system or platform. It defines what content is allowed, restricted, or prohibited, ensuring compliance with legal, ethical, and organizational standards."
-                ]
+                    [
+                        "definition",
+                        "A set of rules and guidelines that dictate the acceptable use, distribution, and management of digital content within a system or platform. It defines what content is allowed, restricted, or prohibited, ensuring compliance with legal, ethical, and organizational standards."
+                    ]
                 ],
                 "d3f_class": ":ContentPolicy",
                 "d3f_class_label": "Content Policy"
@@ -2561,8 +2503,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.7752203564382074",
             "type": "note-node",
             "position": {
@@ -2573,10 +2515,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "Includes Enclosed Docs, Scripts, Macros, Images, Video, Embedded Obj, Hyperlink, forms"
-                ]
+                    [
+                        "rdfs:comment",
+                        "Includes Enclosed Docs, Scripts, Macros, Images, Video, Embedded Obj, Hyperlink, forms"
+                    ]
                 ]
             },
             "origin": [
@@ -2591,18 +2533,23 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 454,
             "height": 75
-            },
-            {
+        },
+        {
             "id": "0.1189036182761879",
             "type": "artifact-node",
             "position": {
-                "x": 2439.862157690674,
-                "y": 1010.5424658850889
+                "x": 2450.550841743567,
+                "y": 1393.8063044715798
             },
             "data": {
                 "label": "Structured Digital Information Content",
                 "sequence": "0",
-                "user_properties": [],
+                "user_properties": [
+                    [
+                        "definition",
+                        "Structured Digital Information Content refers to user data to be consumed by the user that is organized in a predefined format, making it easily searchable and analyzable. This type of content typically follows a specific schema or model, allowing for efficient data processing and retrieval."
+                    ]
+                ],
                 "d3f_class": ":StructuredDigitalInformationContent",
                 "d3f_class_label": "Structured Digital Information Content"
             },
@@ -2611,41 +2558,41 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 0
             ],
             "measured": {
-                "width": 302,
-                "height": 99
+                "width": 462,
+                "height": 188
             },
             "selected": false,
             "dragging": false,
-            "width": 302,
-            "height": 99
-            },
-            {
+            "width": 460,
+            "height": 188
+        },
+        {
             "id": "0.34945809922391347",
             "type": "countermeasure-node",
             "position": {
-                "x": 1346.9039442419066,
-                "y": -1774.021141315784
+                "x": 1344.7047643906185,
+                "y": -1554.1031561869686
             },
             "data": {
                 "label": "File Metadata Value Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
-                ],
-                [
-                    "reference",
-                    "https://core.ac.uk/download/pdf/326762883.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "description",
-                    "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://core.ac.uk/download/pdf/326762883.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataValueVerification",
                 "d3f_class_label": ":FileMetadataValueVerification"
@@ -2659,31 +2606,32 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "height": 367
             },
             "selected": false,
-            "dragging": false
-            },
-            {
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.3258831965382004",
             "type": "countermeasure-node",
             "position": {
-                "x": 2152.80167586346,
-                "y": -1549.694864382639
+                "x": 2150.6024960121717,
+                "y": -1329.7768792538236
             },
             "data": {
                 "label": "File Magic Byte Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing the magic number to verify the file"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ]
+                    [
+                        "d3f:definition",
+                        "Utilizing the magic number to verify the file"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ]
                 ],
                 "d3f_class": ":FileMagicByteVerification",
                 "d3f_class_label": "File Magic Byte Verification"
@@ -2697,35 +2645,36 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "height": 195
             },
             "selected": false,
-            "dragging": false
-            },
-            {
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.9774559813293479",
             "type": "countermeasure-node",
             "position": {
-                "x": 1339.9684831599764,
-                "y": -1370.8287225093554
+                "x": 1350.964382416417,
+                "y": -1143.7634028638533
             },
             "data": {
                 "label": "File Internal Structure Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "description",
-                    "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
                 ],
                 "d3f_class": ":FileInternalStructureVerification",
                 "d3f_class_label": ":FileInternalStructureVerification"
@@ -2739,9 +2688,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "height": 381
             },
             "selected": false,
-            "dragging": false
-            },
-            {
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.2756682259786878",
             "type": "countermeasure-node",
             "position": {
@@ -2752,18 +2702,18 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Content Decompression Checking",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileContentDecompressionChecking",
                 "d3f_class_label": "File Content Decompression Checking"
@@ -2778,68 +2728,30 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1342.531722857666,
-                "y": -31.098944953378805
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "kb-article",
-                    " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
-                "x": 1356.972968601815,
-                "y": -946.7293321003706
+                "x": 1350.3754290479505,
+                "y": -711.417088012538
             },
             "data": {
                 "label": "File Metadata Consistency Validation",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "description",
-                    "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataConsistencyValidation",
                 "d3f_class_label": ":FileMetadataConsistencyValidation"
@@ -2853,43 +2765,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "height": 335
             },
             "selected": false,
-            "dragging": false
-            },
-            {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1352.040606186807,
-                "y": -560.3643636572313
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing entropy values as a signature to identify different file types"
-                ],
-                [
-                    "reference",
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
-            },
-            "selected": false,
-            "dragging": false
-            },
-            {
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.20366737316992256",
             "type": "artifact-node",
             "position": {
@@ -2909,12 +2788,12 @@ We hope that this blog post shares our insights into our research on CDR techniq
             ],
             "measured": {
                 "width": 150,
-                "height": 102
+                "height": 114
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.9672516677158717",
             "type": "artifact-node",
             "position": {
@@ -2925,10 +2804,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Header Block Signature",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A sequence of bytes used to identify and validate specific header sections within a file."
-                ]
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate specific header sections within a file."
+                    ]
                 ],
                 "d3f_class": ":FileHeaderBlockSignature",
                 "d3f_class_label": ":FileHeaderBlockSignature"
@@ -2943,8 +2822,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.14499280157174388",
             "type": "artifact-node",
             "position": {
@@ -2955,10 +2834,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Footer Block",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A section at the end of a file that contains metadata or control information."
-                ]
+                    [
+                        "definition",
+                        "A section at the end of a file that contains metadata or control information."
+                    ]
                 ],
                 "d3f_class": ":FileFooterBlock",
                 "d3f_class_label": "File Footer Block"
@@ -2973,13 +2852,13 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.16090754731449974",
             "type": "artifact-node",
             "position": {
-                "x": 2444.0085424312115,
-                "y": 1263.4847553526417
+                "x": 2451.6665314645256,
+                "y": 1638.7262179850063
             },
             "data": {
                 "label": "Digital Information",
@@ -2993,13 +2872,13 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 0
             ],
             "measured": {
-                "width": 150,
-                "height": 102
+                "width": 159,
+                "height": 114
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.270595913540307",
             "type": "artifact-node",
             "position": {
@@ -3010,10 +2889,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Footer Block Content",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "The content of a footer block not including the signature."
-                ]
+                    [
+                        "definition",
+                        "The content of a footer block not including the signature."
+                    ]
                 ],
                 "d3f_class": ":FileFooterBlockContent",
                 "d3f_class_label": "File Footer Block Content"
@@ -3028,8 +2907,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.8253744550116549",
             "type": "note-node",
             "position": {
@@ -3040,10 +2919,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "ZIP FILE",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "Example zip file\n\n1. Local File Header A.txt\n2. Data for A.txt\n3. Local File Header B.txt\n4. Data for B.txt\n5. Central Directory Header A.txt\n6. Central Directory Header B.txt\n7. End of central directory record\n\n\n\n\n1. Header Block\n        header signature: 0x504b0304\n2. Content Block\n3. Header Block\n        header signature: 0x504b0304\n4. Content Block\n5. Header Block\n        header signature: 0x504b0102\n6. Header Block\n        header signature: 0x504b0102\n\n7. Footer Block\n       footer signature: 0x503b0506\n"
-                ]
+                    [
+                        "rdfs:comment",
+                        "Example zip file\n\n1. Local File Header A.txt\n2. Data for A.txt\n3. Local File Header B.txt\n4. Data for B.txt\n5. Central Directory Header A.txt\n6. Central Directory Header B.txt\n7. End of central directory record\n\n\n\n\n1. Header Block\n        header signature: 0x504b0304\n2. Content Block\n3. Header Block\n        header signature: 0x504b0304\n4. Content Block\n5. Header Block\n        header signature: 0x504b0102\n6. Header Block\n        header signature: 0x504b0102\n\n7. Footer Block\n       footer signature: 0x503b0506\n"
+                    ]
                 ]
             },
             "origin": [
@@ -3058,8 +2937,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "dragging": false,
             "width": 242,
             "height": 541
-            },
-            {
+        },
+        {
             "id": "0.6136178162729569",
             "type": "artifact-node",
             "position": {
@@ -3070,10 +2949,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "File Footer Block Signature",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "definition",
-                    "A sequence of bytes used to identify and validate the footer section within a file."
-                ]
+                    [
+                        "definition",
+                        "A sequence of bytes used to identify and validate the footer section within a file."
+                    ]
                 ],
                 "d3f_class": ":FileFooterBlockSignature",
                 "d3f_class_label": ":FileFooterBlockSignature"
@@ -3088,8 +2967,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.8199907918822567",
             "type": "note-node",
             "position": {
@@ -3100,10 +2979,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "PDF FILE",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "Example PDF file\n\n\n1. Header\n2. Body\n3. Cross Reference Table\n4. Trailer\n\n\n\n\n1. Header Block\n         header signature: %PDF-1.7\n2. Content Block\n3. Header Block\n          header signature: xref\n4. Footer Block\n          footer signature: trailer\n"
-                ]
+                    [
+                        "rdfs:comment",
+                        "Example PDF file\n\n\n1. Header\n2. Body\n3. Cross Reference Table\n4. Trailer\n\n\n\n\n1. Header Block\n         header signature: %PDF-1.7\n2. Content Block\n3. Header Block\n          header signature: xref\n4. Footer Block\n          footer signature: trailer\n"
+                    ]
                 ]
             },
             "origin": [
@@ -3116,8 +2995,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.15630497336477822",
             "type": "note-node",
             "position": {
@@ -3128,10 +3007,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "PE32",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "Example PE file\n\n\n1. DOS Header\n2. DOS stub\n3. NTHeaders\n4. Section Table\n5. Sections (.text, .rdata, etc)\n\n\n1. Header Block\n2. Content Block\n3. Header Block\n4. Header Block\n5. Content Block\n\n\n"
-                ]
+                    [
+                        "rdfs:comment",
+                        "Example PE file\n\n\n1. DOS Header\n2. DOS stub\n3. NTHeaders\n4. Section Table\n5. Sections (.text, .rdata, etc)\n\n\n1. Header Block\n2. Content Block\n3. Header Block\n4. Header Block\n5. Content Block\n\n\n"
+                    ]
                 ]
             },
             "origin": [
@@ -3146,8 +3025,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "width": 219,
             "height": 273,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.5764862604479757",
             "type": "note-node",
             "position": {
@@ -3158,10 +3037,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "libmagic",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "Libmagic has a custom domain specific language (DSL) for specifying file patterns\n\n- Located in /usr/local/share/misc/magic\n\n\nExample:\n\n10        lelong    0x00000100    this is a test\n>20       ubyte 0xFF       test two\n!:mime    application/x-foo\n\n\n1. Start at byte offset 10, read singed little-endian long, if equal to 0x100, print \"this is a test\"\n2. If test 1 is true, test if byte offset 20 equals 0xFF, print \"test two\", and associate file with MIME type application/x-foo\n\n\n\n"
-                ]
+                    [
+                        "rdfs:comment",
+                        "Libmagic has a custom domain specific language (DSL) for specifying file patterns\n\n- Located in /usr/local/share/misc/magic\n\n\nExample:\n\n10        lelong    0x00000100    this is a test\n>20       ubyte 0xFF       test two\n!:mime    application/x-foo\n\n\n1. Start at byte offset 10, read singed little-endian long, if equal to 0x100, print \"this is a test\"\n2. If test 1 is true, test if byte offset 20 equals 0xFF, print \"test two\", and associate file with MIME type application/x-foo\n\n\n\n"
+                    ]
                 ]
             },
             "origin": [
@@ -3176,8 +3055,8 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "width": 640,
             "height": 253,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.1608709589078562",
             "type": "note-node",
             "position": {
@@ -3188,10 +3067,10 @@ We hope that this blog post shares our insights into our research on CDR techniq
                 "label": "TrID",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "rdfs:comment",
-                    "TrID has a database of XML files containing rules/patterns to match...\n\n\nUnable to see what the XML files themselves\n"
-                ]
+                    [
+                        "rdfs:comment",
+                        "TrID has a database of XML files containing rules/patterns to match...\n\n\nUnable to see what the XML files themselves\n"
+                    ]
                 ]
             },
             "origin": [
@@ -3204,10 +3083,246 @@ We hope that this blog post shares our insights into our research on CDR techniq
             },
             "selected": false,
             "dragging": false
-            }
-        ],
-        "edges": [
-               {
+        },
+        {
+            "id": "0.6808450084424931",
+            "type": "attack-node",
+            "position": {
+                "x": 2793.950145035385,
+                "y": -66.32891787068344
+            },
+            "data": {
+                "label": "Office Template Macros",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1137.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.09910986957621404",
+            "type": "attack-node",
+            "position": {
+                "x": 4955.487689370096,
+                "y": -82.23175635099864
+            },
+            "data": {
+                "label": "Masquerade File Type",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1036.008"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.9869569819632811",
+            "type": "attack-node",
+            "position": {
+                "x": 4316.045605088414,
+                "y": 73.79977020276513
+            },
+            "data": {
+                "label": "Malicious Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.003"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4556303405855364",
+            "type": "attack-node",
+            "position": {
+                "x": 4385.9247550174005,
+                "y": 160.90939545670685
+            },
+            "data": {
+                "label": "Malicious Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.11473781863281762",
+            "type": "attack-node",
+            "position": {
+                "x": 4464.419142608863,
+                "y": 243.23277756482761
+            },
+            "data": {
+                "label": "Embedded Payloads",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1027.009"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.035945587722548966",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1934.6690780762065,
+                "y": 59.84049243098055
+            },
+            "data": {
+                "label": "Cleartext Storage of Sensitive Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-312"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 337,
+            "height": 83
+        },
+        {
+            "id": "0.6373118746457436",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1828.3356111946912,
+                "y": 154.6208321718074
+            },
+            "data": {
+                "label": "Improper Removal of Sensitive Information Before Storage or Transfer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-212"
+            },
+            "measured": {
+                "width": 443,
+                "height": 81
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 443,
+            "height": 81,
+            "dragging": false
+        },
+        {
+            "id": "0.0176150859463724",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1931.3507611847324,
+                "y": 256.91052335910183
+            },
+            "data": {
+                "label": "Insertion of Sensitive Information Into Sent Data",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-201"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "selected": false,
+            "width": 337,
+            "height": 83,
+            "dragging": false
+        },
+        {
+            "id": "0.18989037913866968",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1083.9669679373612,
+                "y": 1533.718016193416
+            },
+            "data": {
+                "label": "Exposure of Sensitive Information Through Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-1230"
+            },
+            "measured": {
+                "width": 351,
+                "height": 98
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 351,
+            "height": 98
+        },
+        {
+            "id": "0.3233797771654314",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 170.13278674828052,
+                "y": 1207.4361003630295
+            },
+            "data": {
+                "label": "Content Rebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
+            },
+            "measured": {
+                "width": 462,
+                "height": 145
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3184595035224653",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1518.2887828827008,
+                "y": 762.797282005339
+            },
+            "data": {
+                "label": "Isolate",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Isolate"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
             "type": "editableEdge",
             "data": {
                 "label": "d3f:may-contain",
@@ -3618,22 +3733,6 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.40552351868555836",
@@ -3650,43 +3749,11 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.30470669924201865",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.30470669924201865",
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
             "selected": false
         },
         {
@@ -4018,22 +4085,6 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.5507247954821324",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.5507247954821324target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.34945809922391347",
             "sourceHandle": "source",
             "target": "0.14499280157174388",
@@ -4070,8 +4121,214 @@ We hope that this blog post shares our insights into our research on CDR techniq
             "targetHandle": "target",
             "id": "xy-edge__0.30470669924201865source-0.16090754731449974target",
             "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5507247954821324",
+            "sourceHandle": "source",
+            "target": "0.6808450084424931",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4348418949914672__0.5507247954821324source-0.6808450084424931target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09910986957621404",
+            "sourceHandle": "source",
+            "target": "0.28963955228702054",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8515281304481415__0.09910986957621404source-0.28963955228702054target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.9869569819632811",
+            "targetHandle": "target",
+            "id": "xy-edge-0.539449678679707__0.30470669924201865source-0.9869569819632811target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.4556303405855364",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9094396231656217__0.30470669924201865source-0.4556303405855364target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.11473781863281762",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5633636652219103__0.30470669924201865source-0.11473781863281762target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.035945587722548966",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8415422804614472__0.035945587722548966source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6373118746457436",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6665583694887531__0.6373118746457436source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0176150859463724",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7500348604005638__0.0176150859463724source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18989037913866968",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge-0.30412468187121555__0.18989037913866968source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.23175157805602664__0.3233797771654314source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:creates",
+                "label": "creates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "0.6146071780317519",
+            "targetHandle": "target",
+            "id": "xy-edge-0.603753203094493__0.3233797771654314source-0.6146071780317519target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7032304012631014",
+            "sourceHandle": "source",
+            "target": "0.3184595035224653",
+            "targetHandle": "target",
+            "id": "xy-edge-0.92189218431369__0.7032304012631014source-0.3184595035224653target",
+            "selected": false
         }
-        ]
+    ]
         };
       const post_cad4 = (event) => {
         const iframe4 = document.getElementById("iframe4");
@@ -5860,3 +6117,13 @@ We hope that this blog post shares our insights into our research on CDR techniq
     ></iframe>
   </main>
 </html>
+
+## Resources
+
+- Links to CDR \& DATA CAD GRAPHS
+  - [CDR Techniques](https://github.com/d3fend/collab/blob/master/projects/cdr/CDR-FilteringTechniques.json)
+  - [File Format Verification](https://github.com/d3fend/collab/blob/master/projects/cdr/CDR-FileFormatTech.json)
+  - [CDR Digital Artifacts](https://github.com/d3fend/collab/blob/master/projects/cdr/CDR-Artifacts.json)
+  - [Whole CDR Diagram](https://github.com/d3fend/collab/blob/master/projects/cdr/CDR-Whole.json)
+  - [Data \& Digital Info](https://github.com/d3fend/collab/blob/master/projects/cdr/Data%26DigitalInfo.json)
+  - [Protege](https://github.com/d3fend/d3fend-ontology/blob/259-taxonomy-for-data-data-hardening-techniques/src/ontology/initiatives/d3fend-data-only.ttl)

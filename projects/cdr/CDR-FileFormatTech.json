@@ -22,8 +22,8 @@
             "id": "0.40552351868555836",
             "type": "countermeasure-node",
             "position": {
-                "x": 267.12257821267053,
-                "y": -54.58491005080862
+                "x": 272.00961679830516,
+                "y": -114.8583859403023
             },
             "data": {
                 "label": "File Format Verification",
@@ -49,8 +49,9 @@
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.34945809922391347",
@@ -213,44 +214,6 @@
             "dragging": false
         },
         {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.5165347551717,
-                "y": 385.44157590541977
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                    ],
-                    [
-                        "reference",
-                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                    ],
-                    [
-                        "kb-article",
-                        " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                    ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
@@ -284,40 +247,6 @@
             "measured": {
                 "width": 462,
                 "height": 279
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.0694906739984,
-                "y": 686.6164908287806
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Utilizing entropy values as a signature to identify different file types"
-                    ],
-                    [
-                        "reference",
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                    ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
             },
             "selected": false,
             "dragging": false
@@ -398,43 +327,11 @@
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.40552351868555836",
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.40552351868555836target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
             "selected": false
         }
     ]

@@ -24,8 +24,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
     <title>D3FEND Filtering Techniques</title>
     <script>
       const filtering = {
-        "nodes": [
-            {
+         "nodes": [
+        {
             "id": "0.7032304012631014",
             "type": "countermeasure-node",
             "position": {
@@ -51,364 +51,408 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "dragging": false,
             "width": 444,
             "height": 235
+        },
+        {
+            "id": "0.47249815289283914",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -89.02670471453104,
+                "y": 240.4816098826036
             },
-            {
-                "id": "0.47249815289283914",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": -89.02670471453104,
-                    "y": 240.4816098826036
-                },
-                "data": {
-                    "label": "Content Validation",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Verify and validate contents complies with policy"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                        ]
+            "data": {
+                "label": "Content Validation",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Verify and validate contents complies with policy"
                     ],
-                    "d3f_class": ":ContentValidation",
-                    "d3f_class_label": "Content Validation"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false
+                "d3f_class": ":ContentValidation",
+                "d3f_class_label": "Content Validation"
             },
-            {
-                "id": "9-copy0.9142249922179582",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": -87.55033496730823,
-                    "y": 744.0150115907652
-                },
-                "data": {
-                    "label": "Content Modification",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Modify content that does not comply with policy"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                        ]
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "9-copy0.9142249922179582",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -87.55033496730823,
+                "y": 744.0150115907652
+            },
+            "data": {
+                "label": "Content Modification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Modify content that does not comply with policy"
                     ],
-                    "d3f_class": ":ContentModification",
-                    "d3f_class_label": ":ContentModification"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 138
-                },
-                "selected": true,
-                "dragging": false,
-                "width": 409,
+                "d3f_class": ":ContentModification",
+                "d3f_class_label": ":ContentModification"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
                 "height": 138
             },
-            {
-                "id": "0.48426736445356067",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": -77.344369119107,
-                    "y": 1225.2145970058884
-                },
-                "data": {
-                    "label": "Content Quarantine",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Transfer content that does not comply with policy to quanrantine zone"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                        ]
+            "selected": false,
+            "dragging": false,
+            "width": 409,
+            "height": 138
+        },
+        {
+            "id": "0.48426736445356067",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -77.344369119107,
+                "y": 1225.2145970058884
+            },
+            "data": {
+                "label": "Content Quarantine",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Transfer content that does not comply with policy to quanrantine zone"
                     ],
-                    "d3f_class": ":ContentQuarantine",
-                    "d3f_class_label": "Content Quarantine"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 474,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false,
+                "d3f_class": ":ContentQuarantine",
+                "d3f_class_label": "Content Quarantine"
+            },
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
                 "width": 474,
                 "height": 177
             },
-            {
-                "id": "0.5762349378605824",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": 552.4804461114722,
-                    "y": 980.8377568920262
-                },
-                "data": {
-                    "label": "Content Format Conversion",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Converting a file from one form to another, usually a simpler and safer format"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                        ]
+            "selected": false,
+            "dragging": false,
+            "width": 474,
+            "height": 177
+        },
+        {
+            "id": "0.5762349378605824",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 552.4804461114722,
+                "y": 980.8377568920262
+            },
+            "data": {
+                "label": "Content Format Conversion",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Converting a file from one form to another, usually a simpler and safer format"
                     ],
-                    "d3f_class": ":ContentFormatConversion",
-                    "d3f_class_label": "Content Format Conversion"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false
+                "d3f_class": ":ContentFormatConversion",
+                "d3f_class_label": "Content Format Conversion"
             },
-            {
-                "id": "0.7617608511325669",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": 527.4399860621706,
-                    "y": 498.71277053174447
-                },
-                "data": {
-                    "label": "Content Excision",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Removing specific, potentially malicious, parts of content"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                        ]
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.7617608511325669",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 527.4399860621706,
+                "y": 498.71277053174447
+            },
+            "data": {
+                "label": "Content Excision",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Removing specific, potentially malicious, parts of content"
                     ],
-                    "d3f_class": ":ContentExcision",
-                    "d3f_class_label": "Content Excision"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false
+                "d3f_class": ":ContentExcision",
+                "d3f_class_label": "Content Excision"
             },
-            {
-                "id": "0.0744514779826817",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": 554.1008675558159,
-                    "y": 757.814109274644
-                },
-                "data": {
-                    "label": "Content Substitution",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "Replace specific parts of content with something else"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
-                        ]
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.0744514779826817",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 554.1008675558159,
+                "y": 757.814109274644
+            },
+            "data": {
+                "label": "Content Substitution",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Replace specific parts of content with something else"
                     ],
-                    "d3f_class": ":ContentSubstitution",
-                    "d3f_class_label": "Content Substitution"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/a9/40/78/713c8deb2c4c7a/US20190268352A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false
+                "d3f_class": ":ContentSubstitution",
+                "d3f_class_label": "Content Substitution"
             },
-            {
-                "id": "0.40552351868555836",
-                "type": "countermeasure-node",
-                "position": {
-                    "x": 511.3630579050854,
-                    "y": 234.42329761895974
-                },
-                "data": {
-                    "label": "File Format Verification",
-                    "sequence": "0",
-                    "user_properties": [
-                        [
-                            "d3f:definition",
-                            "verifying that a file conforms to its expected format specifications"
-                        ],
-                        [
-                            "reference",
-                            "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                        ]
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
+                "height": 177
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.40552351868555836",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 511.3630579050854,
+                "y": 234.42329761895974
+            },
+            "data": {
+                "label": "File Format Verification",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
                     ],
-                    "d3f_class": ":FileFormatVerification",
-                    "d3f_class_label": "File Format Verification"
-                },
-                "origin": [
-                    0.5,
-                    0
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
-                "measured": {
-                    "width": 462,
-                    "height": 177
-                },
-                "selected": false,
-                "dragging": false
-            }
-        ],
-        "edges": [
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.47249815289283914",
-                "sourceHandle": "source",
-                "target": "0.7032304012631014",
-                "targetHandle": "target",
-                "id": "xy-edge__0.47249815289283914source-0.7032304012631014target",
-                "selected": false
+                "d3f_class": ":FileFormatVerification",
+                "d3f_class_label": "File Format Verification"
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "9-copy0.9142249922179582",
-                "sourceHandle": "source",
-                "target": "0.7032304012631014",
-                "targetHandle": "target",
-                "id": "xy-edge__9-copy0.9142249922179582source-0.7032304012631014target",
-                "selected": false
+            "origin": [
+                0.5,
+                0
+            ],
+            "measured": {
+                "width": 462,
+                "height": 177
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.48426736445356067",
-                "sourceHandle": "source",
-                "target": "0.7032304012631014",
-                "targetHandle": "target",
-                "id": "xy-edge__0.48426736445356067source-0.7032304012631014target",
-                "selected": false
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.9177074049964316",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 327.46327984079613,
+                "y": 1195.6129684836421
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.40552351868555836",
-                "sourceHandle": "source",
-                "target": "0.47249815289283914",
-                "targetHandle": "target",
-                "id": "xy-edge__0.40552351868555836source-0.47249815289283914target",
-                "selected": false
+            "data": {
+                "label": ":ContentRebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.5762349378605824",
-                "sourceHandle": "source",
-                "target": "9-copy0.9142249922179582",
-                "targetHandle": "target",
-                "id": "xy-edge__0.5762349378605824source-9-copy0.9142249922179582target",
-                "selected": false
+            "measured": {
+                "width": 462,
+                "height": 145
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.7617608511325669",
-                "sourceHandle": "source",
-                "target": "9-copy0.9142249922179582",
-                "targetHandle": "target",
-                "id": "xy-edge__0.7617608511325669source-9-copy0.9142249922179582target",
-                "selected": false
+            "zIndex": 10,
+            "selected": true,
+            "dragging": false
+        }
+    ],
+    "edges": [
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
             },
-            {
-                "type": "editableEdge",
-                "data": {
-                    "label": "rdfs:subClassOf",
-                    "d3f_property": "rdfs:subClassOf"
-                },
-                "markerEnd": {
-                    "type": "arrowclosed"
-                },
-                "source": "0.0744514779826817",
-                "sourceHandle": "source",
-                "target": "9-copy0.9142249922179582",
-                "targetHandle": "target",
-                "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
-                "selected": false
-            }
-        ]
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.47249815289283914",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.47249815289283914source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "9-copy0.9142249922179582",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__9-copy0.9142249922179582source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.48426736445356067",
+            "sourceHandle": "source",
+            "target": "0.7032304012631014",
+            "targetHandle": "target",
+            "id": "xy-edge__0.48426736445356067source-0.7032304012631014target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.40552351868555836",
+            "sourceHandle": "source",
+            "target": "0.47249815289283914",
+            "targetHandle": "target",
+            "id": "xy-edge__0.40552351868555836source-0.47249815289283914target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5762349378605824",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.5762349378605824source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7617608511325669",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.7617608511325669source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "label": "rdfs:subClassOf",
+                "d3f_property": "rdfs:subClassOf"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0744514779826817",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9177074049964316",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6873659164802763__0.9177074049964316source-9-copy0.9142249922179582target",
+            "selected": false
+        }
+    ]
         };
     const post_cad1 = (event) => {
         const iframe1 = document.getElementById("iframe");
@@ -459,26 +503,26 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
     <title>D3FEND EMBEDDED FILE FORMAT VERIFICATION</title>
     <script>
       const fileformat = {
-        "nodes": [
-            {
+      "nodes": [
+        {
             "id": "0.40552351868555836",
             "type": "countermeasure-node",
             "position": {
-                "x": 267.12257821267053,
-                "y": -54.58491005080862
+                "x": 272.00961679830516,
+                "y": -114.8583859403023
             },
             "data": {
                 "label": "File Format Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "verifying that a file conforms to its expected format specifications"
-                ],
-                [
-                    "reference",
-                    "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "verifying that a file conforms to its expected format specifications"
+                    ],
+                    [
+                        "reference",
+                        "https://patentimages.storage.googleapis.com/ba/10/83/968a6345eee505/US20200104494A1.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileFormatVerification",
                 "d3f_class_label": "File Format Verification"
@@ -491,10 +535,11 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
-            },
-            {
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
+        },
+        {
             "id": "0.34945809922391347",
             "type": "countermeasure-node",
             "position": {
@@ -505,22 +550,22 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "label": "File Metadata Value Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
-                ],
-                [
-                    "reference",
-                    "https://core.ac.uk/download/pdf/326762883.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "description",
-                    "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of checking specific static values within a file, such as file signatures or magic numbers, to ensure they match the expected values defined by the file format specification."
+                    ],
+                    [
+                        "reference",
+                        "https://core.ac.uk/download/pdf/326762883.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "File format specifications often define expected values for specific fields. A common example are file signatures, or magic numbers, which are used to quickly identify files. Another example is within the Compound Document Header of Microsoft Office files, the 29th and 30th byte identifies the byte order, specifically 0xFFFE for little-endian. This technique verifies that the file's static values match the values of the declared file format's specification."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataValueVerification",
                 "d3f_class_label": ":FileMetadataValueVerification"
@@ -535,8 +580,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.3258831965382004",
             "type": "countermeasure-node",
             "position": {
@@ -547,18 +592,18 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "label": "File Magic Byte Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing the magic number to verify the file"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ]
+                    [
+                        "d3f:definition",
+                        "Utilizing the magic number to verify the file"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ]
                 ],
                 "d3f_class": ":FileMagicByteVerification",
                 "d3f_class_label": "File Magic Byte Verification"
@@ -573,8 +618,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.9774559813293479",
             "type": "countermeasure-node",
             "position": {
@@ -585,22 +630,22 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "label": "File Metadata Consistency Validation",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "description",
-                    "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of validating the consistency between a file's metadata and its actual content, ensuring that elements like declared lengths, pointers, and checksums accurately describe the file's content."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ],
+                    [
+                        "description",
+                        "This technique involves validating the consistency between a file's metadata and its actual content. It checks elements like declared lengths, pointers, and checksums to ensure they accurately describe the file's content. For instance, if a header specifies a content block of 50 bytes, this should be verified, and CRC values should be recalculated and compared."
+                    ]
                 ],
                 "d3f_class": ":FileMetadataConsistencyValidation",
                 "d3f_class_label": ":FileMetadataConsistencyValidation"
@@ -615,8 +660,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.2756682259786878",
             "type": "countermeasure-node",
             "position": {
@@ -627,18 +672,18 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "label": "File Content Decompression Checking",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ]
+                    [
+                        "d3f:definition",
+                        "Checking if compressed or encoded data sections can be successfully decompressed or decoded. Can follow with further analysis with semantic knowledge"
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "reference",
+                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
+                    ]
                 ],
                 "d3f_class": ":FileContentDecompressionChecking",
                 "d3f_class_label": "File Content Decompression Checking"
@@ -653,46 +698,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
-            },
-            {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.5165347551717,
-                "y": 385.44157590541977
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                ],
-                [
-                    "reference",
-                    "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                ],
-                [
-                    "kb-article",
-                    " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-            },
-            {
+        },
+        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
@@ -703,18 +710,18 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "label": "File Internal Structure Verification",
                 "sequence": "0",
                 "user_properties": [
-                [
-                    "d3f:definition",
-                    "The process of verifying that a file's internal structure adheres to the expected format, ensuring the presence and correct positioning of defined blocks or sections within the file."
-                ],
-                [
-                    "reference",
-                    "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
-                ],
-                [
-                    "description",
-                    "This technique ensures that a file's internal structure adheres to the expected format. It verifies the presence and correct positioning of defined blocks or sections within the file according to its format specification."
-                ]
+                    [
+                        "d3f:definition",
+                        "The process of verifying that a file's internal structure adheres to the expected format, ensuring the presence and correct positioning of defined blocks or sections within the file."
+                    ],
+                    [
+                        "reference",
+                        "https://www.sciencedirect.com/science/article/pii/S1742287607000369?viewFullText=true#sec4"
+                    ],
+                    [
+                        "description",
+                        "This technique ensures that a file's internal structure adheres to the expected format. It verifies the presence and correct positioning of defined blocks or sections within the file according to its format specification."
+                    ]
                 ],
                 "d3f_class": ":FileInternalStructureVerification",
                 "d3f_class_label": ":FileInternalStructureVerification"
@@ -729,44 +736,10 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
-            },
-            {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1393.0694906739984,
-                "y": 686.6164908287806
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                [
-                    "d3f:definition",
-                    "Utilizing entropy values as a signature to identify different file types"
-                ],
-                [
-                    "reference",
-                    "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
-            },
-            "selected": false,
-            "dragging": false
-            }
-        ],
-        "edges": [
-            {
+        }
+    ],
+    "edges": [
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -781,8 +754,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.34945809922391347source-0.40552351868555836target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -797,8 +770,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.3258831965382004source-0.34945809922391347target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -813,8 +786,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.9774559813293479source-0.40552351868555836target",
             "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -830,24 +803,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.2756682259786878source-0.40552351868555836target",
             "selected": false
-            },
-            {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-            },
-            {
+        },
+        {
             "type": "editableEdge",
             "data": {
                 "label": "rdfs:subClassOf",
@@ -862,24 +819,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.40552351868555836target",
             "selected": false
-            },
-            {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
-            "selected": false
-            }
-        ]
+        }
+    ]
         };
     const post_cad2 = (event) => {
         const iframe2 = document.getElementById("iframe2");
@@ -1944,7 +1885,7 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
     <title>D3FEND EMBEDDED</title>
     <script>
       const whole = {
-        "nodes": [
+      "nodes": [
         {
             "id": "0.7032304012631014",
             "type": "countermeasure-node",
@@ -1976,8 +1917,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "id": "0.47249815289283914",
             "type": "countermeasure-node",
             "position": {
-                "x": -199.02670471453098,
-                "y": 197.14827654927035
+                "x": -195.23741329825498,
+                "y": 351.2461274778274
             },
             "data": {
                 "label": "Content Validation",
@@ -2003,8 +1944,9 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "width": 462,
                 "height": 177
             },
-            "selected": false,
-            "dragging": false
+            "selected": true,
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "9-copy0.9142249922179582",
@@ -2046,8 +1988,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "id": "0.48426736445356067",
             "type": "countermeasure-node",
             "position": {
-                "x": -225.58145758492446,
-                "y": 1289.4520608720309
+                "x": -211.89694327871774,
+                "y": 1151.7744727473364
             },
             "data": {
                 "label": "Content Quarantine",
@@ -2578,8 +2520,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "id": "0.34945809922391347",
             "type": "countermeasure-node",
             "position": {
-                "x": 1346.9039442419066,
-                "y": -1774.021141315784
+                "x": 1344.7047643906185,
+                "y": -1554.1031561869686
             },
             "data": {
                 "label": "File Metadata Value Verification",
@@ -2614,14 +2556,15 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "height": 367
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.3258831965382004",
             "type": "countermeasure-node",
             "position": {
-                "x": 2152.80167586346,
-                "y": -1549.694864382639
+                "x": 2150.6024960121717,
+                "y": -1329.7768792538236
             },
             "data": {
                 "label": "File Magic Byte Verification",
@@ -2652,14 +2595,15 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "height": 195
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.9774559813293479",
             "type": "countermeasure-node",
             "position": {
-                "x": 1339.9684831599764,
-                "y": -1370.8287225093554
+                "x": 1350.964382416417,
+                "y": -1143.7634028638533
             },
             "data": {
                 "label": "File Internal Structure Verification",
@@ -2694,7 +2638,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "height": 381
             },
             "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.2756682259786878",
@@ -2735,49 +2680,11 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "dragging": false
         },
         {
-            "id": "0.36833599672722817",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1342.531722857666,
-                "y": -31.098944953378805
-            },
-            "data": {
-                "label": "Algorithm Output Analysis",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Determine whether a block of data was compressed/encoded in a specific way by using bit sequence matching"
-                    ],
-                    [
-                        "reference",
-                        "https://pure.uva.nl/ws/files/1739225/132135_thesis.pdf"
-                    ],
-                    [
-                        "kb-article",
-                        " For example, JPEG uses Huffman coding to compress data. Given a block of data, it is possible to determine whether it was likely compressed with a given Huffman table using bit sequence matching "
-                    ]
-                ],
-                "d3f_class": ":AlgorithmOutputAnalysis",
-                "d3f_class_label": "Algorithm Output Analysis"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 265
-            },
-            "selected": false,
-            "dragging": false
-        },
-        {
             "id": "0.16229972296000217",
             "type": "countermeasure-node",
             "position": {
-                "x": 1356.972968601815,
-                "y": -946.7293321003706
+                "x": 1350.3754290479505,
+                "y": -711.417088012538
             },
             "data": {
                 "label": "File Metadata Consistency Validation",
@@ -2808,41 +2715,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 "height": 335
             },
             "selected": false,
-            "dragging": false
-        },
-        {
-            "id": "0.9514174898243452",
-            "type": "countermeasure-node",
-            "position": {
-                "x": 1352.040606186807,
-                "y": -560.3643636572313
-            },
-            "data": {
-                "label": "File Entropy Anomaly Detection",
-                "sequence": "0",
-                "user_properties": [
-                    [
-                        "d3f:definition",
-                        "Utilizing entropy values as a signature to identify different file types"
-                    ],
-                    [
-                        "reference",
-                        "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4732193"
-                    ]
-                ],
-                "d3f_class": ":FileEntropyAnomalyDetection",
-                "d3f_class_label": "File Entropy Anomaly Detection"
-            },
-            "origin": [
-                0.5,
-                0
-            ],
-            "measured": {
-                "width": 462,
-                "height": 177
-            },
-            "selected": false,
-            "dragging": false
+            "dragging": false,
+            "zIndex": 10
         },
         {
             "id": "0.20366737316992256",
@@ -2864,7 +2738,7 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             ],
             "measured": {
                 "width": 150,
-                "height": 102
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -2948,8 +2822,8 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
                 0
             ],
             "measured": {
-                "width": 150,
-                "height": 102
+                "width": 159,
+                "height": 114
             },
             "selected": false,
             "dragging": false
@@ -3159,10 +3033,246 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             },
             "selected": false,
             "dragging": false
+        },
+        {
+            "id": "0.6808450084424931",
+            "type": "attack-node",
+            "position": {
+                "x": 2793.950145035385,
+                "y": -66.32891787068344
+            },
+            "data": {
+                "label": "Office Template Macros",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1137.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.09910986957621404",
+            "type": "attack-node",
+            "position": {
+                "x": 4955.487689370096,
+                "y": -82.23175635099864
+            },
+            "data": {
+                "label": "Masquerade File Type",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1036.008"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false
+        },
+        {
+            "id": "0.9869569819632811",
+            "type": "attack-node",
+            "position": {
+                "x": 4316.045605088414,
+                "y": 73.79977020276513
+            },
+            "data": {
+                "label": "Malicious Image",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.003"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.4556303405855364",
+            "type": "attack-node",
+            "position": {
+                "x": 4385.9247550174005,
+                "y": 160.90939545670685
+            },
+            "data": {
+                "label": "Malicious Link",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1204.001"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.11473781863281762",
+            "type": "attack-node",
+            "position": {
+                "x": 4464.419142608863,
+                "y": 243.23277756482761
+            },
+            "data": {
+                "label": "Embedded Payloads",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:T1027.009"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.035945587722548966",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1934.6690780762065,
+                "y": 59.84049243098055
+            },
+            "data": {
+                "label": "Cleartext Storage of Sensitive Information",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-312"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 337,
+            "height": 83
+        },
+        {
+            "id": "0.6373118746457436",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1828.3356111946912,
+                "y": 154.6208321718074
+            },
+            "data": {
+                "label": "Improper Removal of Sensitive Information Before Storage or Transfer",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-212"
+            },
+            "measured": {
+                "width": 443,
+                "height": 81
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 443,
+            "height": 81,
+            "dragging": false
+        },
+        {
+            "id": "0.0176150859463724",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1931.3507611847324,
+                "y": 256.91052335910183
+            },
+            "data": {
+                "label": "Insertion of Sensitive Information Into Sent Data",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-201"
+            },
+            "measured": {
+                "width": 337,
+                "height": 83
+            },
+            "selected": false,
+            "width": 337,
+            "height": 83,
+            "dragging": false
+        },
+        {
+            "id": "0.18989037913866968",
+            "type": "vulnerability-node",
+            "position": {
+                "x": 1083.9669679373612,
+                "y": 1533.718016193416
+            },
+            "data": {
+                "label": "Exposure of Sensitive Information Through Metadata",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:CWE-1230"
+            },
+            "measured": {
+                "width": 351,
+                "height": 98
+            },
+            "zIndex": 10,
+            "selected": false,
+            "width": 351,
+            "height": 98
+        },
+        {
+            "id": "0.3233797771654314",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 170.13278674828052,
+                "y": 1207.4361003630295
+            },
+            "data": {
+                "label": "Content Rebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
+            },
+            "measured": {
+                "width": 462,
+                "height": 145
+            },
+            "selected": false,
+            "dragging": false
+        },
+        {
+            "id": "0.3184595035224653",
+            "type": "countermeasure-node",
+            "position": {
+                "x": -1518.2887828827008,
+                "y": 762.797282005339
+            },
+            "data": {
+                "label": "Isolate",
+                "sequence": "0",
+                "user_properties": [],
+                "d3f_class": "d3f:Isolate"
+            },
+            "measured": {
+                "width": 150,
+                "height": 113
+            },
+            "zIndex": 10,
+            "selected": false,
+            "dragging": false
         }
-        ],
-        "edges": [
-               {
+    ],
+    "edges": [
+        {
             "type": "editableEdge",
             "data": {
                 "label": "d3f:may-contain",
@@ -3573,22 +3683,6 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.40552351868555836target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.40552351868555836",
@@ -3605,43 +3699,11 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.36833599672722817",
-            "sourceHandle": "source",
-            "target": "0.30470669924201865",
-            "targetHandle": "target",
-            "id": "xy-edge__0.36833599672722817source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.16229972296000217",
             "sourceHandle": "source",
             "target": "0.30470669924201865",
             "targetHandle": "target",
             "id": "xy-edge__0.16229972296000217source-0.30470669924201865target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "rdfs:subClassOf",
-                "d3f_property": "rdfs:subClassOf"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.40552351868555836",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.40552351868555836target",
             "selected": false
         },
         {
@@ -3973,22 +4035,6 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "markerEnd": {
                 "type": "arrowclosed"
             },
-            "source": "0.9514174898243452",
-            "sourceHandle": "source",
-            "target": "0.5507247954821324",
-            "targetHandle": "target",
-            "id": "xy-edge__0.9514174898243452source-0.5507247954821324target",
-            "selected": false
-        },
-        {
-            "type": "editableEdge",
-            "data": {
-                "label": "analyzes",
-                "d3f_property": "analyzes"
-            },
-            "markerEnd": {
-                "type": "arrowclosed"
-            },
             "source": "0.34945809922391347",
             "sourceHandle": "source",
             "target": "0.14499280157174388",
@@ -4025,8 +4071,214 @@ The Data/DigitalInfo diagram is not linked to the CDR content specifically, but 
             "targetHandle": "target",
             "id": "xy-edge__0.30470669924201865source-0.16090754731449974target",
             "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.5507247954821324",
+            "sourceHandle": "source",
+            "target": "0.6808450084424931",
+            "targetHandle": "target",
+            "id": "xy-edge-0.4348418949914672__0.5507247954821324source-0.6808450084424931target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-modify",
+                "label": [
+                    "may-modify"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.09910986957621404",
+            "sourceHandle": "source",
+            "target": "0.28963955228702054",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8515281304481415__0.09910986957621404source-0.28963955228702054target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.9869569819632811",
+            "targetHandle": "target",
+            "id": "xy-edge-0.539449678679707__0.30470669924201865source-0.9869569819632811target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.4556303405855364",
+            "targetHandle": "target",
+            "id": "xy-edge-0.9094396231656217__0.30470669924201865source-0.4556303405855364target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:may-contain",
+                "label": [
+                    "may-contain"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.30470669924201865",
+            "sourceHandle": "source",
+            "target": "0.11473781863281762",
+            "targetHandle": "target",
+            "id": "xy-edge-0.5633636652219103__0.30470669924201865source-0.11473781863281762target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.035945587722548966",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.8415422804614472__0.035945587722548966source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.6373118746457436",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6665583694887531__0.6373118746457436source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.0176150859463724",
+            "sourceHandle": "source",
+            "target": "0.5507247954821324",
+            "targetHandle": "target",
+            "id": "xy-edge-0.7500348604005638__0.0176150859463724source-0.5507247954821324target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:weakness-of",
+                "label": "weakness-of"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.18989037913866968",
+            "sourceHandle": "source",
+            "target": "0.20366737316992256",
+            "targetHandle": "target",
+            "id": "xy-edge-0.30412468187121555__0.18989037913866968source-0.20366737316992256target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.23175157805602664__0.3233797771654314source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "d3f:creates",
+                "label": "creates"
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.3233797771654314",
+            "sourceHandle": "source",
+            "target": "0.6146071780317519",
+            "targetHandle": "target",
+            "id": "xy-edge-0.603753203094493__0.3233797771654314source-0.6146071780317519target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.7032304012631014",
+            "sourceHandle": "source",
+            "target": "0.3184595035224653",
+            "targetHandle": "target",
+            "id": "xy-edge-0.92189218431369__0.7032304012631014source-0.3184595035224653target",
+            "selected": false
         }
-        ]
+    ]
         };
       const post_cad4 = (event) => {
         const iframe4 = document.getElementById("iframe4");

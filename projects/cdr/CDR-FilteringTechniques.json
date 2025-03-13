@@ -110,7 +110,7 @@
                 "width": 462,
                 "height": 138
             },
-            "selected": true,
+            "selected": false,
             "dragging": false,
             "width": 409,
             "height": 138
@@ -286,6 +286,32 @@
             },
             "selected": false,
             "dragging": false
+        },
+        {
+            "id": "0.9177074049964316",
+            "type": "countermeasure-node",
+            "position": {
+                "x": 327.46327984079613,
+                "y": 1195.6129684836421
+            },
+            "data": {
+                "label": ":ContentRebuild",
+                "sequence": "0",
+                "user_properties": [
+                    [
+                        "d3f:definition",
+                        "Rebuild the file according to the spec so any unreferenced components or objects are removed."
+                    ]
+                ],
+                "d3f_class": ":ContentRebuild"
+            },
+            "measured": {
+                "width": 462,
+                "height": 145
+            },
+            "zIndex": 10,
+            "selected": true,
+            "dragging": false
         }
     ],
     "edges": [
@@ -399,6 +425,24 @@
             "target": "9-copy0.9142249922179582",
             "targetHandle": "target",
             "id": "xy-edge__0.0744514779826817source-9-copy0.9142249922179582target",
+            "selected": false
+        },
+        {
+            "type": "editableEdge",
+            "data": {
+                "d3f_property": "rdfs:subClassOf",
+                "label": [
+                    "rdfs:subClassOf"
+                ]
+            },
+            "markerEnd": {
+                "type": "arrowclosed"
+            },
+            "source": "0.9177074049964316",
+            "sourceHandle": "source",
+            "target": "9-copy0.9142249922179582",
+            "targetHandle": "target",
+            "id": "xy-edge-0.6873659164802763__0.9177074049964316source-9-copy0.9142249922179582target",
             "selected": false
         }
     ]
